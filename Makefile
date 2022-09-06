@@ -17,7 +17,7 @@ help:
 # Override the HTML option.
 html: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	cp -R _build/html docs/
+	cp -R _build/html/* docs/
 	echo cabrillorobotics.org > docs/CNAME 
 	touch docs/.nojekyll 
 
