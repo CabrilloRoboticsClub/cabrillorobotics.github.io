@@ -77,3 +77,9 @@ git push
 
 now open a pull request to push the source code to the main repo that the site is atually based on
 (you can do this on your own)
+
+## links
+
+#### parser documentation
+
+https://myst-parser.readthedocs.io/en/latest/intro.html
