@@ -32,9 +32,16 @@ myst_enable_extensions = ["colon_fence"]
 
 #html_theme = 'pydata_sphinx_theme'
 html_theme = "sphinxawesome_theme"
-html_awesome_docsearch = False
 html_static_path = ['_static']
 
+# This option is `False` by default
+html_awesome_docsearch = False
+
+#docsearch_config = {
+#  "app_id": "MG8IQJ9KU0",
+#  "api_key": "241095237ab6fbc4a644836eab43eb09",
+#  "index_name": "cabrillorobotics.org"
+#}
 
 #awesome theme config
 html_theme_options = {
