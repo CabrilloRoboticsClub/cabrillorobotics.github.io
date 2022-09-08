@@ -32,7 +32,17 @@ myst_enable_extensions = ["colon_fence"]
 
 #html_theme = 'pydata_sphinx_theme'
 html_theme = "sphinxawesome_theme"
-
+html_awesome_docsearch = False
 html_static_path = ['_static']
 
-html_awesome_docsearch = False
+
+#awesome theme config
+html_theme_options = {
+    "nav_include_hidden": True,
+    "show_nav": True,
+    "show_breadcrumbs": True,
+    "breadcrumbs_separator": "/",
+    "show_prev_next": False,
+    "show_scrolltop": True
+    }
+
