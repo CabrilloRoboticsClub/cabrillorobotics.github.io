@@ -83,3 +83,7 @@ now open a pull request to push the source code to the main repo that the site i
 #### parser documentation
 
 https://myst-parser.readthedocs.io/en/latest/intro.html
+
+#### myst admonitions refrence
+
+https://jupyterbook.org/en/stable/reference/cheatsheet.html#admonitions
