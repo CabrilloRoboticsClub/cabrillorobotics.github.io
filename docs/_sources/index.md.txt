@@ -1,5 +1,16 @@
 # Cabrillo Robotics Club 
 
+
+```{toctree}
+---
+caption: Sitemap
+maxdepth: 1
+hidden:
+glob:
+---
+materov20*/**
+```
+
 :::{warning}
 Site Under Construction
 :::
