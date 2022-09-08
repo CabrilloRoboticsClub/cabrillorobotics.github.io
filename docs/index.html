@@ -83,6 +83,7 @@
 
   <main
     data-controller="scroll"
+    data-action="scroll->scroll#showButton"
     class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0"
   ><article role="main" class="flex-1">
       
@@ -116,7 +117,16 @@
       
         <div class="mt-20 mb-4 text-sm text-gray-700">&copy; 2022, Cabrillo Robotics Club&nbsp;Made with <a href="https://www.sphinx-doc.org">Sphinx 5.1.1</a></div>
       
-    </footer></main>
+    </footer><button
+  data-scroll-target="scrollToTop"
+  data-action="scroll#scrollToTop"
+  class="fixed bottom-0 right-0 p-2 m-4 z-10 rounded-full bg-gray-700 text-white opacity-0 transition-opacity duration-1000 pointer-events-none hover:bg-gray-300 hover:text-link focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-gray-200 focus:text-link tooltipped tooltipped-nw"
+  aria-label="Scroll to top"
+>
+  <svg class="fill-current stroke-current h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+  </svg>
+</button></main>
 
 
       <button

@@ -35,4 +35,15 @@ html_theme = "sphinxawesome_theme"
 
 html_static_path = ['_static']
 
+
+#awesome theme config
 html_awesome_docsearch = False
+html_theme_options = {
+    "nav_include_hidden": True,
+    "show_nav": True,
+    "show_breadcrumbs": True,
+    "breadcrumbs_separator": "/",
+    "show_prev_next": False,
+    "show_scrolltop": True
+    }
+
