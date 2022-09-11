@@ -10,7 +10,7 @@ at the mate rov 2022 competition we got the trophies for
 
 * Pioneer Technical Documentation Champion 2022
 
-#### Press Coverage
+### Press Coverage
 
 
 ## ROV Hydrozoa
