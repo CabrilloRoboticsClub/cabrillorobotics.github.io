@@ -17,7 +17,8 @@ Site Under Construction
 
 ## Socials 
 
-1. [Discord](https://discord.gg/jFH6AahW)
+1. [Google Groups Email List](https://groups.google.com/g/cabrillorobotics) (Public)
+1. [Discord](https://discord.gg/jFH6AahW) (Students and Donors Only)
 1. [Facebook](https://www.facebook.com/CabrilloRobotics/)
 1. [Instagram](https://www.instagram.com/cabrillorobotics/)
 1. [Twitter](https://twitter.com/CabrilloRobotic)
