@@ -9,6 +9,7 @@ hidden:
 glob:
 ---
 materov20*/**
+documentation/*
 ```
 
 :::{warning}
