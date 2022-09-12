@@ -8,6 +8,7 @@ maxdepth: 1
 hidden:
 glob:
 ---
+self
 materov20*/**
 documentation/*
 ```
