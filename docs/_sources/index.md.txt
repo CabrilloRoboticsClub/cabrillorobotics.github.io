@@ -20,10 +20,9 @@ Site Under Construction
 
 donations to the Cabrillo Robotics Club must go through the Cabrillo Foundation
 
-[Cabrillo Foundation Donate](https://foundation.cabrillo.edu/donate-2/)
+[Cabrillo Foundation Donation Page](https://foundation.cabrillo.edu/donate-2/)
 
 in the "where to direct gift" drop down chose "Other" and type "Cabrillo Robotics Club" in the Notes field
-
 
 ## Socials 
 
@@ -34,7 +33,6 @@ in the "where to direct gift" drop down chose "Other" and type "Cabrillo Robotic
 1. [Twitter](https://twitter.com/CabrilloRobotic)
 1. [GitHub](https://github.com/cabrillorobotics)
 1. [YouTube](https://www.youtube.com/channel/UC7C8mbnPujbr6cxQMaxRVWw)
-
 
 ## Calendar 
 
