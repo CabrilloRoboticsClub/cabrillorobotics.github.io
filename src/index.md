@@ -27,7 +27,7 @@ in the "where to direct gift" drop down chose "Other" and type "Cabrillo Robotic
 ## Socials 
 
 1. [Google Groups Email List](https://groups.google.com/g/cabrillorobotics) (Public)
-1. [Discord](https://discord.gg/jFH6AahW) (Students and Donors Only)
+1. [Discord](https://discord.gg/Z5PYYekMWf) (Students and Donors Only)
 1. [Facebook](https://www.facebook.com/CabrilloRobotics/)
 1. [Instagram](https://www.instagram.com/cabrillorobotics/)
 1. [Twitter](https://twitter.com/CabrilloRobotic)
