@@ -13,7 +13,9 @@ author = 'Cabrillo Robotics Club'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+    'myst_parser',
+    'sphinxawesome_theme']
 
 
 templates_path = ['_templates']
@@ -22,6 +24,7 @@ exclude_patterns = [
     'Thumbs.db', 
     '.DS_Store',
     'venv*/**',
+    '_themes',
     ]
 
 # MyST config.

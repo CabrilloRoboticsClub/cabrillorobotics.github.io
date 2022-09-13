@@ -8,6 +8,7 @@ maxdepth: 1
 hidden:
 glob:
 ---
+self
 materov20*/**
 documentation/*
 ```
@@ -20,21 +21,19 @@ Site Under Construction
 
 donations to the Cabrillo Robotics Club must go through the Cabrillo Foundation
 
-[Cabrillo Foundation Donate](https://foundation.cabrillo.edu/donate-2/)
+[Cabrillo Foundation Donation Page](https://foundation.cabrillo.edu/donate-2/)
 
 in the "where to direct gift" drop down chose "Other" and type "Cabrillo Robotics Club" in the Notes field
-
 
 ## Socials 
 
 1. [Google Groups Email List](https://groups.google.com/g/cabrillorobotics) (Public)
-1. [Discord](https://discord.gg/jFH6AahW) (Students and Donors Only)
+1. [Discord](https://discord.gg/Z5PYYekMWf) (Students and Donors Only)
 1. [Facebook](https://www.facebook.com/CabrilloRobotics/)
 1. [Instagram](https://www.instagram.com/cabrillorobotics/)
 1. [Twitter](https://twitter.com/CabrilloRobotic)
 1. [GitHub](https://github.com/cabrillorobotics)
 1. [YouTube](https://www.youtube.com/channel/UC7C8mbnPujbr6cxQMaxRVWw)
-
 
 ## Calendar 
 
