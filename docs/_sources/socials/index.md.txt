@@ -4,9 +4,12 @@
 # Socials 
 
 * [Google Groups Email List](https://groups.google.com/g/cabrillorobotics) (Public)
+
+<iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/cabrillorobotics#!forum/cabrillorobotics" scrolling="no" frameborder="0" width="100%" height="700"></iframe>
+
 * [Discord](https://discord.gg/Z5PYYekMWf) (Students and Donors Only)
 
-<iframe src="https://discord.com/widget?id=908903553358258226&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=908903553358258226&theme=dark" width="" height="" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 * [Facebook](https://www.facebook.com/CabrilloRobotics/)
 
