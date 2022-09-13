@@ -18,11 +18,11 @@ Site Under Construction
 
 ## Donate
 
-donations to the Cabrillo Robotics Club must go through the Cabrillo Foundation
+Donations to the Cabrillo Robotics Club must go through the Cabrillo Foundation.
 
 [Cabrillo Foundation Donate](https://foundation.cabrillo.edu/donate-2/)
 
-in the "where to direct gift" drop down chose "Other" and type "Cabrillo Robotics Club" in the Notes field
+In the "where to direct gift" drop down choose "Other" and type "Cabrillo Robotics Club" in the Notes field.
 
 
 ## Socials 
