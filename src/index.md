@@ -9,8 +9,10 @@ hidden:
 glob:
 ---
 self
+calendar/index.md
+socials/index.md
 materov20*/**
-documentation/*
+documentation/index.md
 ```
 
 :::{warning}
@@ -21,9 +23,14 @@ Site Under Construction
 
 Donations to the Cabrillo Robotics Club must go through the Cabrillo Foundation.
 
+```{important}
+In the "where to direct gift" drop down, choose "Other," and type "Cabrillo Robotics Club" in the Notes field. 
+
+If you dont do this, the money doesn't go to us!
+```
+
 [Cabrillo Foundation Donation Page](https://foundation.cabrillo.edu/donate-2/)
 
-In the "where to direct gift" drop down, choose "Other," and type "Cabrillo Robotics Club" in the Notes field.
 
 ## Socials 
 
