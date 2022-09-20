@@ -21,4 +21,34 @@ at the mate rov 2022 competition we got the trophies for
 
 Thanks to our sponsors
 
-(insert sponsor logos and links to their information)
+* [Cabrillo ASCC Student Senate](https://www.cabrillo.edu/student-senate/)
+
+* [Cabrillo FabLab and Makerspace](https://cabrillomakerspace.com/)
+```{image} /_static/materov2022/sponsors/cabrillo_makerspace.png
+:name: Cabrillo Makerspace Logo
+```
+
+* [Billet Metal Craft](https://billetmetalcraft.com/)
+```{image} /_static/materov2022/sponsors/billet_metal_craft.jpg
+:name: Billet Metal Craft Logo
+```
+
+* [Sapphire Metal Finishing](https://sapphirefinish.com/)
+```{image} /_static/materov2022/sponsors/Sapphire_Metal_Finishing.png
+:name: Sapphire Metal Finishing Logo
+```
+
+* [Dassault Systems](https://www.solidworks.com/)
+```{image}  /_static/materov2022/sponsors/dassault_systems.png
+:name: Dassault Systems Logo
+```
+
+* [CITO Medical](https://citomedical.com/)
+```{image} /_static/materov2022/sponsors/cito_medical.jpg
+:name: CITO Medical Logo
+```
+
+* [PSI Consulting](https://www.psiconsulting.com/)
+```{image} /_static/materov2022/sponsors/psi_consulting.png
+:name: PSI Consulting Logo
+```
