@@ -2,7 +2,7 @@
 
 ## Winnings
 
-at the mate rov 2022 competition we got the trophies for
+At the MATE ROV 2022 competition we got the trophies for:
 
 * Pioneer First Place 2022
 
@@ -12,6 +12,9 @@ at the mate rov 2022 competition we got the trophies for
 
 ### Press Coverage
 
+* [Santa Cruz Sentinel](https://www.santacruzsentinel.com/2022/07/09/name-dropping-cabrillo-team-wins-underwater-robotics-competition/)
+
+* [KION 5/46](https://youtu.be/mr34oDlB3G4)
 
 ## ROV Hydrozoa
 
@@ -19,7 +22,7 @@ at the mate rov 2022 competition we got the trophies for
 
 ## Sponsors
 
-Thanks to our sponsors
+Thanks to our sponsors:
 
 * [Cabrillo ASCC Student Senate](https://www.cabrillo.edu/student-senate/)
 
