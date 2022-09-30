@@ -22,6 +22,10 @@ At the MATE ROV 2022 competition we got the trophies for:
 
 ## ROV Hydrozoa
 
+Our Robot is OpenSource AGPLv3
+
+https://github.com/CabrilloRoboticsClub/cabrillo_rov
+
 (add information about our robot hydrozoa)
 
 ## Sponsors
