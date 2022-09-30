@@ -14,6 +14,10 @@ At the MATE ROV 2022 competition we got the trophies for:
 
 * [Santa Cruz Sentinel](https://www.santacruzsentinel.com/2022/07/09/name-dropping-cabrillo-team-wins-underwater-robotics-competition/)
 
+* [The Pajaronian](https://pajaronian.com/cabrillo-robotics-team-takes-home-top-prize/)
+
+* [Lookout Local Santa Cruz](https://lookout.co/santacruz/education/higher-ed/cabrillo-college/story/2022-07-07/cabrillo-college-robotics-club-wins-first-place-in-world-mate-rov-competition/)
+
 * [KION 5/46](https://youtu.be/mr34oDlB3G4)
 
 ## ROV Hydrozoa
