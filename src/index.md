@@ -1,7 +1,5 @@
 # Cabrillo Robotics Club 
 
-Testing build.
-
 ```{toctree}
 ---
 caption: Sitemap
