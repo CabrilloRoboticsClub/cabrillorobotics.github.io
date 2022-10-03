@@ -1,6 +1,6 @@
 # cabrillorobotics.github.io
 
-# cabrillorobotics.org
+# [cabrillorobotics.org](https://cabrillorobotics.org/)
 
 Site is rendered by Myst Parser from the markdown in the src directory.
 
