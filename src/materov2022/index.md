@@ -20,6 +20,8 @@ At the MATE ROV 2022 competition we got the trophies for:
 
 * [KION 5/46](https://youtu.be/mr34oDlB3G4)
 
+* [Santa Cruz Works](https://www.santacruzworks.org/news/cabrillo-college-robotics-club-wins-first-place-in-world-mate-rov-competition)
+
 ## ROV Hydrozoa
 
 (add information about our robot hydrozoa)
