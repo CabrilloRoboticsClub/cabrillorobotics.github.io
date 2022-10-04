@@ -41,6 +41,9 @@ For the competition we had write a report on our robot you can read it here:
 Thanks to our sponsors:
 
 * [Cabrillo ASCC Student Senate](https://www.cabrillo.edu/student-senate/)
+```{image} /_static/materov2022/sponsors/logo-ascc-blue.png
+:name: Cabrillo ASCC Logo
+```
 
 * [Cabrillo FabLab and Makerspace](https://cabrillomakerspace.com/)
 ```{image} /_static/materov2022/sponsors/cabrillo_makerspace.png
