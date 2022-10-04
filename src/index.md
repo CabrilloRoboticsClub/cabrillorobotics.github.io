@@ -1,6 +1,5 @@
 # Cabrillo Robotics Club 
 
-
 ```{toctree}
 ---
 caption: Sitemap
