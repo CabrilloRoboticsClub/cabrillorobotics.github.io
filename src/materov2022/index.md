@@ -18,11 +18,23 @@ At the MATE ROV 2022 competition we got the trophies for:
 
 * [Lookout Local Santa Cruz](https://lookout.co/santacruz/education/higher-ed/cabrillo-college/story/2022-07-07/cabrillo-college-robotics-club-wins-first-place-in-world-mate-rov-competition/)
 
+* [Santa Cruz Works](https://www.santacruzworks.org/news/cabrillo-college-robotics-club-wins-first-place-in-world-mate-rov-competition)
+
 * [KION 5/46](https://youtu.be/mr34oDlB3G4)
 
 ## ROV Hydrozoa
 
-(add information about our robot hydrozoa)
+```{image} /_static/materov2022/logo/banner.PNG
+:name: Cabrillo Robotics Hydrozoa Banner
+```
+
+Founded by a group of students at Cabrillo College. 
+
+For our software, the robot is running on [ROS1 Noetic] (http://wiki.ros.org/noetic) and the code is AGPLv3 Open Source. 
+[Cabrillo ROV 2022 GitHub Reposity](https://github.com/CabrilloRoboticsClub/cabrillo_rov) 
+
+For the competition we had write a report on our robot you can read it here:
+[Hydrozoa MATE ROV 2022 Pioneer Technical Report](https://drive.google.com/file/d/1vniAOG5fuoXlKJONgs2LZRRYQhfBqPbc/view)
 
 ## Sponsors
 
