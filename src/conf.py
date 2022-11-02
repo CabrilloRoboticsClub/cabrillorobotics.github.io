@@ -9,6 +9,7 @@
 project = 'The Cabrillo Robotics Club'
 copyright = '2022, Cabrillo Robotics Club'
 author = 'Cabrillo Robotics Club'
+html_title = 'The Cabrillo Robotics Club'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -55,5 +56,3 @@ html_theme_options = {
     "show_prev_next": False,
     "show_scrolltop": True
     }
-
-html_title = ''
