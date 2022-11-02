@@ -46,6 +46,6 @@ Thanks to our sponsors:
 ```{image} /_static/materov2023/sponsors/cabrillofoundation.svg
 :name: Cabrillo Foundation Logo
 ```
-Private Donors:
+  Cabrillo Foundation Donors:
 
 * * YOUR NAME HERE
