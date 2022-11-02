@@ -42,9 +42,10 @@ Thanks to our sponsors:
 :name: Altium Logo
 ```
 
-* [Cabrillo Foundation Donors](https://foundation.cabrillo.edu/)
+* [Cabrillo Foundation](https://foundation.cabrillo.edu/)
 ```{image} /_static/materov2023/sponsors/cabrillofoundation.svg
 :name: Cabrillo Foundation Logo
 ```
+Private Donors:
 
 * * YOUR NAME HERE
