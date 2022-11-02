@@ -56,3 +56,4 @@ html_theme_options = {
     "show_scrolltop": True
     }
 
+html_title = ''
