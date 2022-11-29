@@ -46,3 +46,11 @@ Thanks to our sponsors:
 ```{image} /_static/materov2023/sponsors/bay-rubber.jpg
 :name: Bay Rubber Company Logo
 ```
+
+* [Cabrillo Foundation](https://foundation.cabrillo.edu/)
+```{image} /_static/materov2023/sponsors/cabrillofoundation.svg
+:name: Cabrillo Foundation Logo
+```
+* Cabrillo Foundation Donors:
+
+* * YOUR NAME HERE
