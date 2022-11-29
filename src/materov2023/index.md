@@ -41,3 +41,8 @@ Thanks to our sponsors:
 ```{image} /_static/materov2023/sponsors/altium.png
 :name: Altium Logo
 ```
+
+* [Bay Rubber Company](https://bayrubber.com/)
+```{image} /_static/materov2023/sponsors/bay-rubber.jpg
+:name: Bay Rubber Company Logo
+```
