@@ -53,4 +53,8 @@ Thanks to our sponsors:
 ```
 * Cabrillo Foundation Donors:
 
+* * Steve Trujillo
+
+* * James and Linda Snook
+
 * * YOUR NAME HERE
