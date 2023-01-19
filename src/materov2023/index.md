@@ -57,4 +57,6 @@ Thanks to our sponsors:
 
 * * James and Linda Snook
 
+* * Peters Family
+
 * * YOUR NAME HERE
