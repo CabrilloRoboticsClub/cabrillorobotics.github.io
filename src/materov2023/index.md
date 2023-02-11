@@ -4,8 +4,7 @@
 
 named after the school sports team
 
-Code Repo:
-https://github.com/CabrilloRoboticsClub/cabrillo_rov_2023
+Code Repo: [https://github.com/CabrilloRoboticsClub/cabrillo_rov_2023](https://github.com/CabrilloRoboticsClub/cabrillo_rov_2023)
 
 ## Sposors
 
