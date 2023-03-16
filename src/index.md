@@ -8,16 +8,13 @@ hidden:
 glob:
 ---
 self
-donate/index.md
-socials/index.md
-calendar/index.md
+donate.md
+socials.md
+calendar.md
 materov20*/**
-documentation/index.md
+documentation.md
 ```
 
-:::{warning}
-Site Under Construction
-:::
 
 ## Donate
 
