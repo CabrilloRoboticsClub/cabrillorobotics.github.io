@@ -8,6 +8,7 @@ hidden:
 glob:
 ---
 self
+donate.md
 socials.md
 calendar.md
 materov20*/**
