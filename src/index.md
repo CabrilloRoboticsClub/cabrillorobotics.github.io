@@ -8,10 +8,10 @@ hidden:
 glob:
 ---
 self
-socials/index.md
-calendar/index.md
+socials.md
+calendar.md
 materov20*/**
-documentation/index.md
+documentation.md
 ```
 
 :::{warning}
