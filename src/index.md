@@ -14,9 +14,6 @@ materov20*/**
 documentation/index.md
 ```
 
-:::{warning}
-Site Under Construction
-:::
 
 ## Donate
 
