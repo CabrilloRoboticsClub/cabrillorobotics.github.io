@@ -14,9 +14,6 @@ materov20*/**
 documentation.md
 ```
 
-:::{warning}
-Site Under Construction
-:::
 
 ## Donate
 
