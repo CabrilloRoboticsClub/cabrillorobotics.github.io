@@ -6,7 +6,7 @@ description: We'd love to help you improve your sales.
 map:
   latitude: 36.9876
   longitude: 121.9259
-  address: "6500 Soquel Dr, Aptos, CA 95003"
+  address: "6500 Soquel Dr, Aptos CA 95003"
   zoom: 13
 ---
 <div class="map" id="map"></div>
@@ -14,17 +14,17 @@ map:
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="hidden" name="_to" value="cabrilloroboticsclub@gmail.com" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+		<input type="text" name="name" id="name" placeholder="Enter your name" />
 
 		<label for="email">Email Address</label>
-		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+		<input type="email" name="email" id="email" placeholder="Enter your email" required />
 
 		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		<textarea name="message" id="message" placeholder="Enter your message"></textarea>
 
 		<input type="submit" value="Send Message" />
 	</form>
@@ -34,7 +34,7 @@ map:
 		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 		<h3 class="editable">Email</h3>
-		<p><a href="mailto:support@example.com">support@example.com</a></p>
+		<p><a href="mailto:cabrilloroboticsclub@gmail.com">cabrilloroboticsclub@gmail.com</a></p>
 	</div>
 </div>
 
