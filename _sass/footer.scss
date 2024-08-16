@@ -21,7 +21,7 @@
 				text-decoration: none;
 			}
 			svg {
-				fill: #999;
+				fill: #35353d;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -32,7 +32,7 @@
 			}
 
 			&:hover svg {
-				fill: #fff;
+				fill: #fff0f5;
 			}
 
 			&.twitter-icon:hover svg {
@@ -70,8 +70,8 @@ footer {
 	padding: 50px 0 50px 0;
 	font-size: 1.1em;
 	position: relative;
-	background: #2b2b40;
-	color: #fff;
+	background: #282830;
+	color:  #35353d;
 
 	.copyright {
 		font-size: .8em;
