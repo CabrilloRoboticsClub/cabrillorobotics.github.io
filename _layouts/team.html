@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    {% include team-showcase.html %}
+    <section class="section has-text-centered has-background-black-bis" id="team">
+        <div class="container">
+            <div class="description has-text-left">
+                <p>
+                    Cabrillo Robotics Club (CRC) is a dedicated team of students from Cabrillo College in Aptos, California united by a mutual passion for robotics. We design and engineer cutting-edge solutions, drawing from the diverse experience and knowledge of our interdisciplinary members. The team is structured into four specialized subteams: Electrical, Mechanical, Software, and Marketing. This decentralized approach fosters autonomy within each division, allowing members to focus on their areas of expertise, while working collaboratively to create innovative and reliable robotic systems.
+                </p>
+            </div>
+            <h2 class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium" id="current-members">
+                Current Members
+            </h2>
+            {% include member.html %}
+            <h2 class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+                Mentors
+            </h2>
+            {% include mentors.html %}
+            <h2 class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+                Alumni
+            </h2>
+            {% include alumni.html %}
+        </div>
+    </section>
+    <!--Footer-->
+    {% include footer.html %}
+</body>
+
+</html>

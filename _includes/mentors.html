@@ -1,0 +1,15 @@
+<div class="columns is-centered is-multiline is-mobile">
+    {% for mentor in site.data.mentors %}
+      <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+        id="project-card">
+        <div class="has-background-black-ter card">
+          <figure class="image is-4by5" style="background-image: url({{mentor.image}});">
+          </figure>
+          <div class="card-content">
+            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ mentor.name }}</h2>
+            <p class="has-text-white-ter has-text-weight-normal">{{ mentor.roles }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>

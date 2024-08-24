@@ -1,0 +1,35 @@
+---
+layout: project-page
+color: info
+comp: "MATE 2023"
+title: "SeaHawk"
+subtitle: "Pioneer First Place Overall MATE World Championship"
+hero-image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/seahawk-hero.jpeg?raw=true
+cad: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+pdf: technical-report-2023.pdf
+gallery:
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/bonus-mission.jpeg?raw=true
+      text: Cabrillo Robotics at the Bonus Mission (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/flags.jpeg?raw=true
+      text: Flags of countries represented at the MATE World Championship (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/logic-tube.jpeg?raw=true
+      text: Assembling the logic tube (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/pool-test.jpeg?raw=true
+      text: Cabrillo Robotics team members at a pool test (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/seahawk-mate-background.jpeg?raw=true
+      text: SeaHawk with the MATE Competition background (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/seahawk-underwater.jpeg?raw=true
+      text: SeaHawk underwater at a pool test (Credit Stephanie L'Heureux)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/team-photo-hold-seahawk.jpeg?raw=true
+      text: Cabrillo Robotics holds SeaHawk celebrating completing all competition events (Credit Mike Matera)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/team-photo-marketing-display.jpeg?raw=true
+      text: Cabrillo Robotics in front of their marketing display (Credit Mike Matera)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/team-photo-mate-background.jpeg?raw=true
+      text: Cabrillo Robotics with their ROV and marketing display (Credit Mike Matera)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/team-photo-post-win.jpeg?raw=true
+      text: Cabrillo Robotics post first place win with tropy (Credit Unknown)
+    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/trophy.png?raw=true
+      text: EXPLORER All-Around Champion (Credit Stephanie L'Heureux)
+---
+<!-- {% include about.html %} -->

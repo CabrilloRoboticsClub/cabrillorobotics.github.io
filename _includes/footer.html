@@ -1,0 +1,28 @@
+<footer id="footer">
+    <div class="container">
+        <div class="columns is-left is-multiline">
+            <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                <div class="socials">
+                    {% for social in site.data.socials %}
+                        <a href="{{social.link}}"  target="_blank" class="social-link">
+                            <span class="icon-text has-text-black-ter"></span>
+                                <span class="icon is-small">
+                                    <i class="fab fa-{{ social.icon }} fa-2x"></i>
+                                </span>
+                                <span class="social-text">{{ social.name }}</span>
+                             </span>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                <div class="contacts">
+                    <p class="has-text-black-ter has-text-weight-normal">cabrillorobotics@gmail.com</p>
+                    <a href="https://www.google.com/maps/place/Cabrillo+College/@36.9876108,-121.9259014,15z/data=!4m6!3m5!1s0x808e15930c1d7857:0xe8fe250e5088cb50!8m2!3d36.9876108!4d-121.9259014!16s%2Fg%2F11cs9mbmms?entry=ttu"  target="_blank" class="address-link">
+                        <p class="has-text-black-ter has-text-weight-normal">6500 Soquel Dr,<br>Aptos, CA 95003</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
