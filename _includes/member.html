@@ -1,16 +1,63 @@
-<div class="columns is-centered is-multiline is-mobile">
-    {% for member in site.data.members %}
-      <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-        id="project-card">
-        <div class="has-background-black-ter card">
-          <figure class="image is-4by5" style="background-image: url({{member.image}});">
-          </figure>
-          <div class="card-content">
-            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ member.name }}</h2>
-            <p class="has-text-white-ter has-text-weight-normal">{{ member.roles }}</p>
-            <!-- <p class="has-text-grey-lighter has-text-weight-light content size-9">{{ member.description}}</p> -->
-          </div>
+<div id="member">
+    <div class="columns is-centered is-multiline is-mobile">
+        {% for member in site.data.members %}
+            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+                <div class="member-card" 
+                    data-image="{{member.image}}" 
+                    data-name="{{ member.name }}" 
+                    data-roles="{{ member.roles }}" 
+                    data-description="{{ member.description }}">
+                    <div class="card">
+                        <figure class="image is-4by5" style="background-image: url({{member.image}});"></figure>
+                        <div class="card-content">
+                            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ member.name }}</h2>
+                            <p class="has-text-weight-normal">{{ member.roles }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  
+    <div id="member-popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <img id="popup-image" src="" alt="Member Photo">
+            <h2 id="popup-name"></h2>
+            <p id="popup-roles"></p>
+            <p id="popup-description"></p>
         </div>
-      </div>
-    {% endfor %}
-  </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const popup = document.getElementById('member-popup');
+        const popupImage = document.getElementById('popup-image');
+        const popupName = document.getElementById('popup-name');
+        const popupRoles = document.getElementById('popup-roles');
+        const popupDescription = document.getElementById('popup-description');
+        const closeButton = document.querySelector('.popup-close');
+
+        document.querySelectorAll('.member-card').forEach(function(card) {
+            card.addEventListener('click', function() {
+            popupImage.src = this.getAttribute('data-image');
+            popupName.textContent = this.getAttribute('data-name');
+            popupRoles.textContent = this.getAttribute('data-roles');
+            popupDescription.textContent = this.getAttribute('data-description');
+            popup.classList.add('active');
+            });
+        });
+
+        closeButton.addEventListener('click', function() {
+            popup.classList.remove('active');
+        });
+
+        popup.addEventListener('click', function(event) {
+            if (event.target === popup) {
+            popup.classList.remove('active');
+            }
+        });
+    });
+
+</script>
