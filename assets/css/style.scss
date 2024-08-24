@@ -52,10 +52,7 @@ p { color: var(--text); }
         border-color: var(--text);
     }
     .navbar-menu.is-active {
-        background-color: transparent;
-        .navbar-dropdown {
-            background-color: transparent;
-        }
+        background-color:  rgba(3, 3, 3, 0.9);
     }
     .navbar-item:hover {
         background-color: transparent;
