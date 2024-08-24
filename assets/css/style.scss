@@ -470,7 +470,9 @@ body { background-color: var(--background); }
 
 #member {
     .columns {
+        margin-top: 20px;
         .column {
+            margin-bottom: 20px;
             .image {
                 // only round top two corners
                 border-radius: 10px 10px 0 0;
