@@ -1,11 +1,9 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
-
-        <!-- logo or branding image on left side -->
         <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <div class="website-title has-text-white-ter">
+                <div class="website-title">
                     <strong>{{site.title}}</strong>
                 </div>
             </a>
@@ -25,11 +23,10 @@
                     href="{{site.url}}{{site.baseurl}}/blog">Updates</a>
                 {% include dropdown.html %}
             </div>
-
         </div>
     </div>
 </nav>
-<!-- Bulma Navbar JS -->
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         /* Get all "navbar-burger" elements */

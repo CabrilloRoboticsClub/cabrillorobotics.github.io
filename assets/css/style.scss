@@ -10,31 +10,34 @@
     --seahawk-II: #fe5e20;
     --seahawk: #79bde8;
     --hydrozoa: #3961e2;
+    --text: #a2a2a2;
 }
+
+p { color: var(--text); }
 
 #navbar {
     // semi transparent
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(3, 3, 3, 0.9);
+    color: var(--text);
     .website-title {
-        color: var(--primary);
+        color: var(--white);
     }
     // when the page is active, make the name bold
     .is-active {
         font-weight: 600;
+        background-color: transparent;
     }
+    // this is the title of the dropdown
     .navbar-link { 
         background-color: transparent !important;
     }
     .navbar-dropdown {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(3, 3, 3, 0.9);
         border: none;
         // border on the lower two corners
         border-radius: 0 0 10px 10px;
         right: 0;
         left: auto;
-    }
-    .navbar-burger {
-        background-color: rgba(0, 0, 0, 0.8);
     }
     // change color on hover
     a.navbar-item:hover,
@@ -42,13 +45,20 @@
         background-color: transparent !important;
         color: var(--primary) !important;
     }
-
     a.navbar-item.is-active {
         color: var(--primary) !important;
     }
-    // This is the arrow next to the dropdown
     .navbar-link:not(.is-arrowless)::after {
-        border-color: grey;
+        border-color: var(--text);
+    }
+    .navbar-menu.is-active {
+        background-color: transparent;
+        .navbar-dropdown {
+            background-color: transparent;
+        }
+    }
+    .navbar-item:hover {
+        background-color: transparent;
     }
 }
 
