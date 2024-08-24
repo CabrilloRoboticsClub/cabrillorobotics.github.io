@@ -370,6 +370,7 @@ body { background-color: var(--background); }
 
 #footer {
     padding: 2rem 0;
+    background-color: var(--header) !important;
     .columns {
         display: flex;
         justify-content: space-between;
@@ -448,27 +449,9 @@ body { background-color: var(--background); }
 }
 
 #team {
-    .columns {
-        .column {
-            .image {
-                // only round top two corners
-                border-radius: 10px 10px 0 0;
-                // hide part of image which gets rounded off
-                overflow: hidden;
-            }
-        }
-    }
     .description {
         min-height: 25vh;
     }
-    .card {
-        transition: all 0.25s ease;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-}
-
-#member {
     .columns {
         margin-top: 20px;
         .column {
@@ -481,28 +464,20 @@ body { background-color: var(--background); }
             }
         }
     }
-    
     .card {
         transition: all 0.25s ease;
         border-radius: 10px;
         overflow: hidden;
         background-color: var(--background-secondary);
     }
-
-    .member-card:hover {
+    .person-card:hover {
         transform: scale(1.05);
     }
-  
-    .member-image {
+    .person-image {
         background-size: cover;
         background-position: center;
         border-radius: 10px;
     }
-  
-    .member-info h2, .member-info p {
-        text-align: center;
-    }
-  
     .popup {
         display: none;
         position: fixed;
@@ -515,19 +490,19 @@ body { background-color: var(--background); }
         align-items: center;
         z-index: 1000;
     }
-  
     .popup.active {
         display: flex;
     }
-  
     .popup-content {
         background-color: var(--background-secondary);
         padding: 20px;
         border-radius: 10px;
-        text-align: center;
+        display: flex;
+        align-items: flex-start;
         max-width: 60vh;
         max-height: 80vh;
         width: 90%;
+        overflow: auto;
     }
   
     .popup-close {
@@ -538,16 +513,29 @@ body { background-color: var(--background); }
         cursor: pointer;
         color: var(--header);
     }
-  
-    .popup img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-bottom: 15px;
+
+    .popup-image-container {
+        flex: 0 0 50%;
+        margin-right: 20px;
     }
-    
+    .popup-image-container img {
+        width: 100%;
+        height: auto;
+        max-height: 60vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .popup-text {
+        flex: 1;
+    }
+
     .popup h2, .popup p {
         margin: 10px 0;
+        text-align: left;
+    }
+    .popup h2 {
+        color: var(--header);
+        font-weight: bold;
     }
 }
 

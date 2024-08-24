@@ -1,16 +1,72 @@
-<div class="columns is-centered is-multiline is-mobile">
-    {% for alumni in site.data.alumni %}
-      <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-        id="project-card">
-        <div class="has-background-black-ter card">
-          <figure class="image is-4by5" style="background-image: url({{alumni.image}});">
-          </figure>
-          <div class="card-content">
-            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ alumni.name }}</h2>
-            <p class="has-text-white-ter has-text-weight-normal">{{ alumni.current }}</p>
-            <!-- <p class="has-text-grey-lighter has-text-weight-light content size-9">{{ member.description}}</p> -->
-          </div>
+<div id="team">
+    <div class="columns is-centered is-multiline is-mobile">
+        {% for alum in site.data.alumni %}
+            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+                <div class="person-card" 
+                    data-image="{{ alum.image }}" 
+                    data-name="{{ alum.name }}" 
+                    data-current="{{ alum.current }}" 
+                    data-roles="{{ alum.roles }}"
+                    data-description="{{ alum.description }}">
+                    <div class="card">
+                        <figure class="image is-4by5" style="background-image: url({{alum.image}});"></figure>
+                        <div class="card-content">
+                            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ alum.name }}</h2>
+                            <p class="has-text-weight-normal">{{ alum.current }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  
+    <div id="person-popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <div class="popup-image-container">
+                <img id="popup-image" src="" alt="Alumni Photo">
+            </div>
+            <div class="popup-text">
+                <h2 id="popup-name"></h2>
+                <p id="popup-current"></p>
+                <p id="popup-roles"></p>
+                <br>
+                <p id="popup-description"></p>
+            </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
+    </div>
+    
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const popup = document.getElementById("person-popup");
+        const popup_image = document.getElementById("popup-image");
+        const popup_name = document.getElementById("popup-name");
+        const popup_current = document.getElementById("popup-current");
+        const popup_roles = document.getElementById("popup-roles");
+        const popup_description = document.getElementById("popup-description");
+        const close_button = document.querySelector(".popup-close");
+
+        document.querySelectorAll(".person-card").forEach(function(card) {
+            card.addEventListener("click", function() {
+                popup_image.src = this.getAttribute("data-image");
+                popup_name.textContent = this.getAttribute("data-name");
+                popup_current.textContent = this.getAttribute("data-current");
+                popup_roles.textContent = this.getAttribute("data-roles");
+                popup_description.textContent = this.getAttribute("data-description");
+                popup.classList.add("active");
+            });
+        });
+
+        close_button.addEventListener("click", function() {
+            popup.classList.remove("active");
+        });
+
+        popup.addEventListener("click", function(event) {
+            if (event.target === popup) {
+                popup.classList.remove("active");
+            }
+        });
+    });
+</script>
