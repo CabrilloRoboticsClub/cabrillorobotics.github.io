@@ -1,0 +1,12 @@
+
+<div class="grid" id="feature-grid">
+    {% for feature in site.data.seahawk-rov-features %}
+    <div class="column" id="feature-card">
+        <img src="{{ feature.image }}" alt="{{ feature.title }}" class="image"/>
+        <div class="feature-content">
+          <h3 class="feature-title">{{ feature.title }}</h3>
+          <p class="feature-description">{{ feature.description }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>

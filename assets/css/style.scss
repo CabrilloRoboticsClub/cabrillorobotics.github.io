@@ -11,7 +11,7 @@
     --text: #a2a2a2;
     --seahawk-II: #fe5e20;
     --seahawk: #79bde8;
-    --hydrozoa: #3961e2;
+    --hydrozoa: #1a5ea5;
 }
 
 // Global settings
@@ -414,6 +414,39 @@ body { background-color: var(--background); }
             max-width: 90%;
             margin: 0 auto;
             margin-bottom: 1rem;
+        }
+    }
+}
+
+#feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    #feature-card {
+        display: flex;
+        flex-direction: column;
+        .image {
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .feature-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .feature-title {
+            font-size: 1.2rem;
+            text-align: center;
+            color: var(--header);
+            background-color: var(--seahawk);
+            padding: 10px;
+            margin: 0;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .feature-description {
+            text-align: justify;
+            margin-top: 10px;
         }
     }
 }

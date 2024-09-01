@@ -1,0 +1,14 @@
+- title: "Primary Manipulator"
+  description: "The primary manipulator is engineered for dynamic and reliable usage. It is mounted on the front of  ROV SeaHawk within  view of the multiple cameras. The custom-printed three-pronged jaws, and a flexible rubber interior, allow the operator to grasp irregularly shaped objects with ease. Once the object is secured, the piston may apply up to 70N of force to ensure the object of importance remains securely captured in the jaws. "
+  image: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg"
+
+- title: "T200 Thrusters"
+  description: "ROV SeaHawk uses eight Blue Robotics thrusters mounted with custom 3D-printed brackets in a configuration that enables all degrees of motion. The motors are shrouded with 3D-printed guards for increased safety. Using flow simulations, the Cabrillo Robotics Club minimized shroud impact on thrusters from a 23% to 15% reduction in efficiency compared to the initial prototype. The thrusters also use a lower voltage than their technical maximum. "
+  image: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg"
+- title: "Logic Tube"
+  description: "ROV SeaHawk is designed around a centralized 'logic tube.' The logic tube contains temperature and humidity sensors that are monitored by the software which alerts the pilot of any abnormalities for increased safety. It also encloses logic components and an auxiliary pivoting camera on a custom servo mount. The logic tube is completely waterproofed with specialized connectors and is vacuum sealed before every mission to ensure no leakage."
+  image: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg"
+
+- title: "Fish Release"
+  description: "To aid in environmental restoration efforts and species conservation, ROV SeaHawk includes a fish release. The specialized release system was carefully designed for the safe, secure transport, and gentle release of species. Fish may be placed in the containment area, then driven to the site where they may be released through a sliding gate on the bottom. The fish release may be used to assist in conservation projects such as repopulating the Northern Redbelly Dace."
+  image: "https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg"
