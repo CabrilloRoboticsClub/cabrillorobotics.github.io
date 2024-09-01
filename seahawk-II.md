@@ -53,17 +53,10 @@ gallery:
     - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/mate-comp-team.jpeg?raw=true
       text: Cabrillo Robotics at the MATE World Championships
       credit: Unknown
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/pool-test.jpeg?raw=true
-      text: SeaHawk II at a pool test
-      credit: Stephanie L'Heureux
     - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/a085caa5b114a6f86c9d88600ea182a43de7decc/assets/images/seahawk-II/gallery-seahawk-II/matt-photo-bomb.jpeg?raw=true 
       text: Cabrillo Robotics post victory selfie with Matt photo bomb
-      credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/mate-comp-pool.jpeg?raw=true
-      text: MATE World Championship Pool in Kingsport, TN 
       credit: Stephanie L'Heureux
     - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/dashboard.jpeg?raw=true
       text: SeaHawk II pilot dashboard
       credit: Stephanie L'Heureux
 ---
-<!-- {% include about.html %} -->
