@@ -6,7 +6,6 @@ title: "Hydrozoa"
 handle: "hydrozoa"
 subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/54a771b6a96fa719d6aa802667c10988c51e20e6/assets/images/hydrozoa/hydrozoa-hero.webp
-cad: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/23ba17b0db6e47871e19a277e2c21cea689121f3/assets/images/hydrozoa/hydrozoa-cad.jpeg?raw=true
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 pdf: technical-report-2022.pdf
 gallery:

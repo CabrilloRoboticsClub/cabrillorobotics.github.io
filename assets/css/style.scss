@@ -241,6 +241,8 @@ body { background-color: var(--background); }
 }
 
 #project-summary {
+    position: relative;
+    height: 30vh;
     .hydrozoa .button {
         background-color: transparent;
         border-color: var(--hydrozoa);
@@ -331,7 +333,7 @@ body { background-color: var(--background); }
 
 #seahawk-II-info-graphic {
     position: relative;
-    height: 75vh;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     align-items: center;

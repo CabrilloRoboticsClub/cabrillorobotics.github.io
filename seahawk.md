@@ -6,7 +6,6 @@ title: "SeaHawk"
 handle: "seahawk"
 subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/seahawk-hero.jpeg?raw=true
-cad: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 pdf: technical-report-2023.pdf
 gallery:
