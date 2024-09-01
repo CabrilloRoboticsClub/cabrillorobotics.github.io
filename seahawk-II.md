@@ -10,52 +10,52 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 pdf: technical-report-2024.pdf
 showcase: "seahawk-II.html"
 gallery:
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/interview.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/interview.webp
       text: Cabrillo Robotics interviewed by Lookout Santa Cruz 
       credit: Natasha Loudermilk
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/seahawk-II-mike-and-steph.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/seahawk-II-mike-and-steph.webp
       text: Advisor Mike Matera and Stephanie L'Heureux with the SeaHawk II
       credit: Natasha Loudermilk
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/stack.webp
       text: Electronics stack up close
       credit: Natasha Loudermilk
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/hero.jpg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/leak-test.webp
       text: SeaHawk II after leak test
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/electrical-engrs.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/electrical-engrs.webp
       text: Electrical engineers and their stack
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/stack.jpg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/stack.webp
       text: Electronics stack
       credit: Stephanie L'Heureux
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/gallery-seahawk-II/trophy.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/trophy.webp
       text: EXPLORER All-Around Champion
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/deploy.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/deploy.webp
       text: Liam Gilligan and Isaac Eda deploy SeaHawk II for a pool test
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/presentation.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/presentation.webp
       text: Cabrillo Robotics at their engineering presentation 
       credit: MATE
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/gallery-seahawk-II/product-demo-pilot.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/product-demo-pilot.webp
       text: Pilot Isaac Eda and Co-Pilot Stephanie L'Heureux 
       credit: MATE
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/gallery-seahawk-II/product-demo-pilot-2.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/product-demo-pilot-2.webp
       text: Deck crew at the competition product demo
       credit: MATE
-    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/gallery-seahawk-II/product-demo.webp
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/product-demo.webp
       text: Cabrillo Robotics at their product demo
       credit: MATE Twitch
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/pre-product-demo-pool-test.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/pre-product-demo-pool-test.webp
       text: Isaac Wax and the SeaHawk II at a pool test before the product demo
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/mate-comp-team.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/team.webp
       text: Cabrillo Robotics at the MATE World Championships
       credit: Unknown
     - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/a085caa5b114a6f86c9d88600ea182a43de7decc/assets/images/seahawk-II/gallery-seahawk-II/matt-photo-bomb.jpeg?raw=true 
       text: Cabrillo Robotics post victory selfie with Matt photo bomb
       credit: Stephanie L'Heureux
-    - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/dashboard.jpeg?raw=true
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/gallery-seahawk-II/dashboard.webp
       text: SeaHawk II pilot dashboard
       credit: Stephanie L'Heureux
 ---
