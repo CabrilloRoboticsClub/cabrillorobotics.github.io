@@ -11,6 +11,11 @@ layout: compress
     {% include navbar.html %}
     {% include project-showcase.html %}
     {% include project-summary.html %}
+
+    {% if page.showcase %}
+        {% include {{ page.showcase }} %}
+    {% endif %}
+
     {% include project-gallery.html %}
     {% include footer.html %}
 </body>
