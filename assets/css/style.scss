@@ -153,21 +153,84 @@ body { background-color: var(--background); }
     }
 }
 
+#project-gallery-card {
+    margin-top: 20px;
+    .columns .column {
+        margin-bottom: 20px;
+    }
 
-#project-gallery { 
-    #project-gallery-card {
-        position: relative;
-        .image {
-            position: relative;
-            background-size: cover;
-            background-position: center;
-            // rounded corners
-            border-radius: 10px;
-            // hide any image which goes outside the corner radius
-            overflow: hidden;
-        }
+    .card {
+        transition: all 0.25s ease;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .popup.active {
+        display: flex;
+    }
+
+    .popup-content {
+        background-color: var(--background-secondary);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        max-width: 80vh;
+        max-height: 90vh;
+        width: 90%;
+        overflow: auto;
+    }
+
+    .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        color: var(--header);
+    }
+
+    .popup-image-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .popup-image-container img {
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    
+    .popup-writing {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .popup p {
+        margin: 10px 0;
+        text-align: center;
     }
 }
+
 
 #about {
     // three buttons in a line, flexible sizes

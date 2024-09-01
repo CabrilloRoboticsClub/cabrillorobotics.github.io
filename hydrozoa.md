@@ -11,11 +11,15 @@ pdf: technical-report-2022.pdf
 gallery:
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/gallery-hydrozoa/hydrozoa-underwater.webp
       text: Hydrozoa at a pool test photographed underwater
+      credit: Isaac Wax
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/gallery-hydrozoa/team.webp
       text: Cabrillo Robotics with Hydrozoa
+      credit: Unknown
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/gallery-hydrozoa/mate-team.webp
       text: Spencer Koontz, Isaac Wax, and Ciarán Farley at a pool test 
+      credit: Unknown
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/e0b1cf46fd4fb647c4dad56a6bdd2fae43bbefd7/assets/images/hydrozoa/gallery-hydrozoa/hydrozoa-surface.webp
       text: Hydrozoa
+      credit: Isaac Wax
 ---
 <!-- {% include about.html %} -->
