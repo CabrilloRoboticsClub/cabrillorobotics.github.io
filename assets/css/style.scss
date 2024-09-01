@@ -151,6 +151,15 @@ body { background-color: var(--background); }
     .title-text h1, .title-text h3 {
         margin: 0;
     }
+    .hydrozoa .subtitle {
+        color: var(--hydrozoa);
+    }
+    .seahawk .subtitle {
+        color: var(--seahawk);
+    }
+    .seahawk-II .subtitle {
+        color: var(--seahawk-II);
+    }
 }
 
 #project-gallery-card {
@@ -228,6 +237,43 @@ body { background-color: var(--background); }
     .popup p {
         margin: 10px 0;
         text-align: center;
+    }
+}
+
+#project-summary {
+    .hydrozoa .button {
+        background-color: transparent;
+        border-color: var(--hydrozoa);
+        color: var(--hydrozoa);
+    }
+
+    .hydrozoa .button:hover {
+        background-color: var(--hydrozoa);
+        border-color: var(--hydrozoa);
+        color: var(--header);
+    }
+
+    .seahawk .button {
+        background-color: transparent;
+        border-color: var(--seahawk);
+        color: var(--seahawk);
+    }
+
+    .seahawk .button:hover {
+        background-color: var(--seahawk);
+        border-color: var(--seahawk);
+        color: var(--header);
+    }
+    .seahawk-II .button {
+        background-color: transparent;
+        border-color: var(--seahawk-II);
+        color: var(--seahawk-II);
+    }
+
+    .seahawk-II .button:hover {
+        background-color: var(--seahawk-II);
+        border-color: var(--seahawk-II);
+        color: var(--header);
     }
 }
 

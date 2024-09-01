@@ -3,6 +3,7 @@ layout: project-page
 color: link
 comp: "MATE 2022"
 title: "Hydrozoa"
+handle: "hydrozoa"
 subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/54a771b6a96fa719d6aa802667c10988c51e20e6/assets/images/hydrozoa/hydrozoa-hero.webp
 cad: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/23ba17b0db6e47871e19a277e2c21cea689121f3/assets/images/hydrozoa/hydrozoa-cad.jpeg?raw=true

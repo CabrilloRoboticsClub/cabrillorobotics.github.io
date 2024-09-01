@@ -3,6 +3,7 @@ layout: project-page
 color: info
 comp: "MATE 2023"
 title: "SeaHawk"
+handle: "seahawk"
 subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/seahawk-hero.jpeg?raw=true
 cad: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"

@@ -3,6 +3,7 @@ layout: project-page
 color: warning
 comp: "MATE 2024"
 title: "SeaHawk II"
+handle: "seahawk-II"
 subtitle: "Explorer First Place Overall MATE World Championship"
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/seahawk-II-hero.webp
 cad: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
