@@ -1,0 +1,40 @@
+<section class="hero has-text-centered" id="team-showcase">
+    <figure class="hero-background" style="background-image: url('https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/interview.webp');" id="rotating-image">
+        <div class="overlay">
+            <div class="container">
+                <div class="title-text">
+                    <h1 class="title has-text-white-ter is-size-1 is-uppercase has-text-weight-bold">
+                        Cabrillo Robotics Club Team
+                    </h1>
+                    <hr>
+                    <a href="{{site.url}}{{site.baseurl}}/team#members"
+                        class="button is-rounded is-outlined has-text-weight-normal">Meet Our Members</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </figure>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = [
+            "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/interview.webp",
+            "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/41309abdbb5d93dbc6c0119bf8f97a3bb38ad743/assets/images/seahawk-II/gallery-seahawk-II/stack.webp",
+            "https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk-II/gallery-seahawk-II/deploy.jpeg?raw=true",
+            "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/782b579c031c16835e0fee2b57a22246c1a79618/assets/images/seahawk-II/gallery-seahawk-II/product-demo-pilot-2.webp"
+        ];
+
+        var image_element = document.getElementById("rotating-image");
+        let i = 0;
+        
+        function rotate() {
+            var new_style = "background-image: url('" + images[i] + "');";
+            image_element.setAttribute("style", new_style);
+            i = (i + 1) % images.length;
+        }
+
+        rotate();
+        setInterval(rotate, 3000)
+    });
+</script>

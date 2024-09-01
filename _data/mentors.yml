@@ -1,0 +1,10 @@
+- name: Mike Matera
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+  roles: CIS Chair
+  description: Blah blah blah
+- name: Andrew Thach
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  roles: CS Professor
+  description: Blah 

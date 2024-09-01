@@ -1,0 +1,14 @@
+<div class="columns is-centered is-multiline is-mobile">
+    {% for robot in site.data.robots %}
+        <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+            id="robot-card">
+            <a href="{{site.url}}{{site.baseurl}}/{{robot.page}}" class="robot-link">
+                <figure class="image is-5by4" style="background-image: url({{robot.image}});"></figure>
+                <div class="overlay">
+                    <h2 class="has-text-weight-bold is-size-3">{{ robot.year }}</h2>
+                    <p class="has-text-white-ter has-text-weight-normal">{{ robot.name }}</p>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,21 @@
+<section class="section has-text-justified has-background-black-bis" id="project-summary">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-justified-desktop has-justified-tablet has-justified-fullhd has-text-justified-widescreen">
+                <p>
+                    {{page.description}}
+                </p>
+                <br>
+            </div>
+            <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                <figure class="image">
+                    <img class=src="{{page.cad}}" alt="{{page.title}} cad">
+                </figure>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <a href="{{site.baseurl}}/assets/pdf/{{page.pdf}}" target="_blank"
+                class="button is-rounded has-text-weight-normal is-{{page.color}} is-outlined has-background-{{page.color}}-dark">Technical Report</a>
+        </div>
+    </div>
+</section>
