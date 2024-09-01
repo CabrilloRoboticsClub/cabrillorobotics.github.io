@@ -40,7 +40,7 @@ gallery:
       text: Cabrillo Robotics post first place win with trophy
       credit: Unknown
     - image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/258a1699f10c378fb2a1d18c2a986080bf3b6a57/assets/images/seahawk/gallery-seahawk/trophy.png?raw=true
-      text: EXPLORER All-Around Champion 
+      text: PIONEER All-Around Champion 
       credit: Stephanie L'Heureux
 ---
 <!-- {% include about.html %} -->
