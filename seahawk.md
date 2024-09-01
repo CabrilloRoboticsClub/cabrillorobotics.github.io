@@ -8,6 +8,7 @@ subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk-hero.webp
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 pdf: technical-report-2023.pdf
+showcase: "seahawk.html"
 gallery:
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/gallery-seahawk/bonus-mission.webp
       text: Cabrillo Robotics at the Bonus Mission
