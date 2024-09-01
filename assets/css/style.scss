@@ -163,9 +163,10 @@ body { background-color: var(--background); }
 }
 
 #project-gallery-card {
-    margin-top: 20px;
-    .columns .column {
-        margin-bottom: 20px;
+    #project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        justify-content: center;
     }
 
     .card {
@@ -451,9 +452,13 @@ body { background-color: var(--background); }
     }
 }
 
-#robots {
+#robot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     #robot-card {
         position: relative;
+        display: flex;
+        flex-direction: column;
         .image {
             position: relative;
             background-size: cover;

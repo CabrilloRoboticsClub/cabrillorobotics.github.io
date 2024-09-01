@@ -1,7 +1,7 @@
 <div id="project-gallery-card">
-    <div class="columns is-centered is-multiline is-mobile">
+    <div class="grid" id="project-grid">
         {% for image in page.gallery %}
-            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+        <div class="column" id="project-card">
                 <div class="card"
                     data-image="{{image.image}}" 
                     data-text="{{ image.text }}" 
