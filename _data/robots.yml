@@ -9,8 +9,8 @@
 - name: SeaHawk
   year: 2023
   page: seahawk
-  image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/f8ba704b6eca825e12aac7b4d636e93ff0945417/assets/images/seahawk/seahawk.jpeg?raw=true
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk.webp
 - name: Other Robots
   year: More
   page:
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/e0b1cf46fd4fb647c4dad56a6bdd2fae43bbefd7/assets/images/hydrozoa/hydrozoa.webp
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/hydrozoa.webp
