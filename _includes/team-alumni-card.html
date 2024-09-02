@@ -1,7 +1,7 @@
 <div id="team">
-    <div class="columns is-centered is-multiline is-mobile">
+    <div class="grid" id="team-grid">
         {% for alum in site.data.alumni %}
-            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+            <div class="column">
                 <div class="person-card" 
                     data-image="{{ alum.image }}" 
                     data-name="{{ alum.name }}" 

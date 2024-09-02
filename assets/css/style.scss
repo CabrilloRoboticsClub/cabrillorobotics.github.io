@@ -688,28 +688,19 @@ body { background-color: var(--background); }
     }
 }
 
-#team {
-    .description {
-        text-align: justify;
+#team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    .person-card {
+        display: flex;
+        flex-direction: column;
     }
-    .contents {
-        margin-bottom: 10vh;
-        margin-top: 5vh;
-    }
-    h2 {
-        margin-bottom: 2vh;
-    }
-    .columns {
-        margin-top: 20px;
-        .column {
-            margin-bottom: 20px;
-            .image {
-                // only round top two corners
-                border-radius: 10px 10px 0 0;
-                // hide part of image which gets rounded off
-                overflow: hidden;
-            }
-        }
+    .image {
+        // only round top two corners
+        border-radius: 10px 10px 0 0;
+        // hide part of image which gets rounded off
+        overflow: hidden;
     }
     .card {
         transition: all 0.25s ease;
@@ -725,6 +716,20 @@ body { background-color: var(--background); }
         background-position: center;
         border-radius: 10px;
     }
+}
+
+#team {
+    .description {
+        text-align: justify;
+    }
+    .contents {
+        margin-bottom: 10vh;
+        margin-top: 5vh;
+    }
+    h2 {
+        margin-bottom: 2vh;
+    }
+    
     .popup {
         display: none;
         position: fixed;
