@@ -690,7 +690,14 @@ body { background-color: var(--background); }
 
 #team {
     .description {
-        min-height: 25vh;
+        text-align: justify;
+    }
+    .contents {
+        margin-bottom: 10vh;
+        margin-top: 5vh;
+    }
+    h2 {
+        margin-bottom: 2vh;
     }
     .columns {
         margin-top: 20px;
