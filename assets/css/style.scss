@@ -914,29 +914,57 @@ body { background-color: var(--background); }
         color: var(--primary);
         width: 100%;
         display: flex;
-        justify-content: space-between; /* Space between text and icon */
+        justify-content: space-between;
         align-items: center;
         padding-left: 20px;
+        position: relative;
+        border: 1px solid var(--primary);
+        border-radius: 1.5rem;
+        transition: border-radius 0.3s ease;
     }
+
     .button:hover {
-        background-color:var(--primary);
-  	    border-color:var(--primary);
-  	    color:var(--header);
-        width: 100%;
+        background-color: var(--primary);
+        border-color: var(--primary);
+        color: var(--header);
     }
+
+    .icon {
+        margin-left: auto;
+        padding-right: 10px;
+    }
+
     .content {
         max-height: 0;
         overflow: hidden;
-        padding: 0;
+        padding: 0 20px;
         visibility: hidden;
+        border: 1px solid var(--primary);
+        border-top: none;
+        transition: max-height 0.3s ease, padding 0.3s ease, visibility 0.3s ease;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
     }
+
     .button.active + .content {
-        max-height: none;
         visibility: visible;
-        padding: 10px;
+        padding: 20px;
+    }
+
+    .button.active {
+        border-bottom: none;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .button.active:hover {
+        background-color: transparent;
+    }
+
+    .content p {
+        margin: 0;
     }
 }
-
 
 
 #post {
