@@ -832,6 +832,69 @@ body { background-color: var(--background); }
     }
 }
 
+#support-us {
+    .description {
+        text-align: justify;
+    }
+    .contents {
+        margin-bottom: 10vh;
+        margin-top: 5vh;
+    }
+    h2 {
+        margin-bottom: 2vh;
+    }
+    .banner {
+        text-align: center;
+        padding: 3rem 1.5rem; /* More balanced padding */
+        height: auto; /* Remove fixed height to allow content to determine size */
+    }
+      
+    .buttons {
+        color: var(--primary)!important;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .buttons a {
+        color: var(--primary)!important;
+	    border-color: var(--primary)!important;
+        background-color: transparent;
+        flex: 1;
+        text-align: center;
+        max-width: 20vw;
+        min-width: 15vw;
+    }
+
+    .buttons a:hover {
+        color: var(--header)!important;
+        background-color:var(--primary);
+	    border-color: var(--primary)!important;
+        flex: 1;
+        text-align: center;
+        max-width: 20vw;
+        min-width: 15vw;
+    }
+
+
+    // Mobile button settings
+    @media (max-width: 768px) {
+        .buttons {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .buttons a {
+            width: 90%; 
+            max-width: 90%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+
 #post {
     @media (min-width: 768px) {
         margin: auto 2.5vmax;
@@ -909,3 +972,4 @@ body { background-color: var(--background); }
   	    color:var(--header);
     }
 }
+
