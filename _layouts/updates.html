@@ -10,22 +10,22 @@ layout: compress
 <body>
     {% include navbar.html %}
 
-    <section class="hero is-fullheight" id="blog">
-        <div class="hero-body">
-            <div class="container">
-                {% include blogpage-heading.html %}
+    <section class="section" id="updates">
+        <div class="container">
+            {% include updates-header.html %}
+        
+            <div id="results-container"></div>
+                {% for post in site.posts %}
+                {% include updates-card.html %}
+                {% endfor %}
             </div>
-        </div>
-        <div id="results-container"></div>
-        <!--Blog Cards Section-->
-        {% for post in site.posts %}
-            {% include blog-card.html %}
-        {% endfor %}
         </div>
     </section>
     <br>
-    <!--Footer begins here-->
+
     {% include footer.html %}
+
+    <!-- Search script -->
     <script src="{{site.url}}{{site.baseurl}}/assets/js/simple-jekyll-search.js"></script>
 
     <script>

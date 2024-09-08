@@ -527,94 +527,157 @@ body { background-color: var(--background); }
 
 
 
-#blog {
-    .hero-body {
-        padding: 3rem 0.25rem 1rem 0.25rem;
-    }
-
-    .container {
-        margin: 1.5rem auto;
-    }
-
-    #blog-card {
+#updates-card {
+    .card {
+        min-height: 25vh;
+        align-items: center;
+        display: flex;
+        // align-items: flex-start;
+        background-color: var(--secondary-bkg);
+        border-radius: 10px;
+        overflow: hidden;
         transition: all 0.25s ease;
-        margin-bottom: 0.5vmax;
-        transform: scale(0.85);
-        margin-right: 2.5vmax;
-        margin-left: 2.5vmax;
-        line-height: normal;
-        border-radius: 0.25rem;
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    }
 
-        &:hover {
-            transform: scale(0.875);
-            -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-        }
+    .card-content {
+        align-items: center;
+    }
 
-        @media (max-width: 768px) {
-            transform: scale(1);
-            margin-bottom: 5vmax !important;
+    .card-content {
+        flex: 1;
+        padding: 16px; /* Adjust padding as needed */
+    }
 
-            &:hover {
-                transform: scale(1.025);
-                margin-bottom: 5vmax !important;
-                -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-                -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            }
+    .card:hover {
+        transform: scale(1.05);
+    }
 
-            .image {
-                padding-top: 50% !important;
-            }
-        }
+    hr {
+        background-color: var(--text);
+    }
 
-        .title {
-            margin: 0.5rem !important;
-        }
+    .content {
+        color: var(--text);
+    }
 
-        .content {
-            margin: 0.5rem;
-        }
+    .title {
+        color: var(--header);
+    }
 
-        .column {
-            display: grid;
-
-            .image {
-                border-radius: 0.25rem;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
+    .column {
+        text-align: left;
     }
 }
 
+
+
+// #updates {
+//     // .container {
+//     //     margin: 1.5rem auto;
+//     // }
+
+//     #updates-card {
+//         transition: all 0.25s ease;
+//         margin-bottom: 0.5vmax;
+//         transform: scale(0.85);
+//         margin-right: 2.5vmax;
+//         margin-left: 2.5vmax;
+//         line-height: normal;
+//         border-radius: 0.25rem;
+//         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+//         -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+//         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+//         &:hover {
+//             transform: scale(0.875);
+//             -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//             -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//             box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//         }
+
+//         @media (max-width: 768px) {
+//             transform: scale(1);
+//             margin-bottom: 5vmax !important;
+
+//             &:hover {
+//                 transform: scale(1.025);
+//                 margin-bottom: 5vmax !important;
+//                 -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//                 -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//                 box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+//             }
+
+//             .image {
+//                 padding-top: 50% !important;
+//             }
+//         }
+
+//         .title {
+//             margin: 0.5rem !important;
+//         }
+
+//         .content {
+//             margin: 0.5rem;
+//         }
+
+//         .column {
+//             display: grid;
+
+//             .image {
+//                 border-radius: 0.25rem;
+//                 background-position: center;
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//             }
+//         }
+//     }
+// }
+
+// TODO: Get the icon on the far right 
 #search {
-    border-bottom: 0.15rem solid;
+    display: flex;
+    align-items: center;
+    width: 100%;
 
-    input {
-        border: none;
-        outline: none;
-        font-weight: 500 !important;
-
-        &::placeholder {
-            font-weight: 500;
-            color: grey;
-            letter-spacing: 0.25rem;
-        }
+    .input {
+        text-align: left;
+        background-color: var(--primary-bkg);
+        border-color: var(--primary);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding-left: 20px;
+        position: relative;
+        border: 1px solid var(--primary);
+        border-radius: 1.5rem;
     }
 
-    .button {
-        transition: all 0.25s ease;
-        &:focus {
-            outline: 0.25rem solid #ede5f2;
-        }
+    input::placeholder {
+        color: var(--header);
+    }
 
-        border: none;
+    .input:focus {
+        color: var(--header);
+    }
+
+    // .icon {
+    //     position: absolute;
+    //     transform: translateY(-50%);
+    //     color: var(--header);
+    // }
+}
+
+#updates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    
+    .header-right {
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -664,38 +727,6 @@ body { background-color: var(--background); }
     .social-link:hover,
     .address-link:hover {
         color: var(--primary);
-    }
-}
-
-#project {
-    .columns {
-        .column {
-            border-radius: 0.5rem;
-            .image {
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
-    }
-
-    #project-card {
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
-        display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-        }
-    }
-    .card {
-        transition: all 0.25s ease;
-        &:hover {
-            background-color: rgba($color: #111113, $alpha: 0.90)!important;
-        }
     }
 }
 
