@@ -4,15 +4,28 @@
 @import "main.scss";
 
 :root {
-    --primary: #9172f8;
-    --primary-bkg: rgb(145, 114, 248, 30%);
     --background: #121212;
-    --background-secondary: #242424;
+    --secondary-bkg: #242424;
     --header: #f5f5f5;
     --text: #a2a2a2;
+
+    --primary: #9172f8; // also lazer shark
+    --primary-bkg: rgb(145, 114, 248, 30%);
+
     --seahawk-II: #fe5e20;
+    --seahawk-II-bkg: rgb(254, 94, 32, 30%);
+
     --seahawk: #79bde8;
-    --hydrozoa: #1a5ea5;
+    --seahawk-bkg: rgb(121, 189, 232, 30%);
+
+    --hydrozoa: #177eeb;
+    --hydrozoa-bkg: rgb(23, 126, 235, 30%);
+
+    --gold: #ddae52;
+    --gold-bkg: rgb(221, 174, 82, 30%);
+
+    --silver: #8b8b8b;
+    --silver-bkg: rgb(139, 139, 139, 30%);
 }
 
 // Global settings
@@ -198,7 +211,7 @@ body { background-color: var(--background); }
     }
 
     .popup-content {
-        background-color: var(--background-secondary);
+        background-color: var(--secondary-bkg);
         padding: 20px;
         border-radius: 10px;
         display: flex;
@@ -707,7 +720,7 @@ body { background-color: var(--background); }
         transition: all 0.25s ease;
         border-radius: 10px;
         overflow: hidden;
-        background-color: var(--background-secondary);
+        background-color: var(--secondary-bkg);
     }
     .person-card:hover {
         transform: scale(1.05);
@@ -747,7 +760,7 @@ body { background-color: var(--background); }
         display: flex;
     }
     .popup-content {
-        background-color: var(--background-secondary);
+        background-color: var(--secondary-bkg);
         padding: 20px;
         border-radius: 10px;
         display: flex;
@@ -865,6 +878,9 @@ body { background-color: var(--background); }
     }
     .subtitle {
         margin-bottom: 5vh;
+        color: var(--header);
+        opacity: 0.8;
+
     }
     .buttons {
         color: var(--primary)!important;
@@ -910,9 +926,9 @@ body { background-color: var(--background); }
 #support-us-dropdowns {
     .button {
         text-align: left;
-        background-color: transparent;
+        background-color: var(--primary-bkg);
         border-color: var(--primary);
-        color: var(--primary);
+        color: var(--header);
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -921,13 +937,11 @@ body { background-color: var(--background); }
         position: relative;
         border: 1px solid var(--primary);
         border-radius: 1.5rem;
-        transition: border-radius 0.3s ease;
     }
 
     .button:hover {
         background-color: var(--primary);
         border-color: var(--primary);
-        color: var(--header);
     }
 
     .icon {
@@ -942,9 +956,13 @@ body { background-color: var(--background); }
         visibility: hidden;
         border: 1px solid var(--primary);
         border-top: none;
-        transition: max-height 0.5s ease, padding 0.3s ease, visibility 0.3s ease;
+        transition: max-height 0.5s ease, padding 0.3s ease;
         border-bottom-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
+    }
+
+    .content p {
+        color: var(--header);
     }
 
     .button.active + .content {
@@ -954,6 +972,7 @@ body { background-color: var(--background); }
         padding-bottom: 30px;
         border-bottom-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
+        background-color: var(--primary-bkg);
     }
 
     .button.active {
@@ -963,7 +982,7 @@ body { background-color: var(--background); }
     }
 
     .button.active:hover {
-        background-color: transparent;
+        background-color: var(--primary-bkg);
     }
 
     .content p {
@@ -993,11 +1012,11 @@ body { background-color: var(--background); }
     }
 
     td:nth-child(4) .circle {
-        background-color: #ddae52;
+        background-color: var(--gold);
     }
 
     td:nth-child(5) .circle {
-        background-color: #8b8b8b;
+        background-color: var(--silver);
     }
 
     td:nth-child(2) {
@@ -1005,15 +1024,15 @@ body { background-color: var(--background); }
     }
 
     td:nth-child(3) {
-        background-color: rgb(121, 189, 232, 30%);
+        background-color: var(--seahawk-bkg);
     }
 
     td:nth-child(4) {
-        background-color: rgb(221, 174, 82, 30%);
+        background-color: var(--gold-bkg);
     }
 
     td:nth-child(5) {
-        background-color: rgb(139, 139, 139, 30%);
+        background-color: var(--silver-bkg);
     }
 
     th:first-child {
