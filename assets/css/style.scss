@@ -259,38 +259,35 @@ body { background-color: var(--background); }
     position: relative;
     height: 30vh;
     .hydrozoa .button {
-        background-color: transparent;
+        background-color: var(--hydrozoa-bkg);
         border-color: var(--hydrozoa);
-        color: var(--hydrozoa);
+        color: var(--header);
     }
 
     .hydrozoa .button:hover {
         background-color: var(--hydrozoa);
         border-color: var(--hydrozoa);
-        color: var(--header);
     }
 
     .seahawk .button {
-        background-color: transparent;
+        background-color: var(--seahawk-bkg);
         border-color: var(--seahawk);
-        color: var(--seahawk);
+        color: var(--header);
     }
 
     .seahawk .button:hover {
         background-color: var(--seahawk);
         border-color: var(--seahawk);
-        color: var(--header);
     }
     .seahawk-II .button {
-        background-color: transparent;
+        background-color: var(--seahawk-II-bkg);
         border-color: var(--seahawk-II);
-        color: var(--seahawk-II);
+        color: var(--header);
     }
 
     .seahawk-II .button:hover {
         background-color: var(--seahawk-II);
         border-color: var(--seahawk-II);
-        color: var(--header);
     }
 }
 
