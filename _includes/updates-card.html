@@ -1,19 +1,20 @@
 <div id="updates-card">
     <div class="column">
-        <a href="{{post.url | absolute_url}}">
+        <a href="{{page.url | absolute_url}}">
             <div class="card">
-                <!-- <figure class="image is-4by5" style="background-image: url({{post.post-image}});"></figure> -->
+                <!-- Removed images because it was not doing things -->
+                <!-- <figure class="image is-4by5" style="background-image: url({{page.page-image}});"></figure> -->
                 <div class="card-content">
-                    <h1 class="title is-size-4-touch">{{post.title}}</h1>
+                    <h1 class="title is-size-4-touch">{{page.title}}</h1>
                     <div class="content">
-                        {{ post.content | truncate: 300 | strip_html | strip_newlines | strip | escape }}
+                        {{ page.content | truncate: 300 | strip_html | strip_newlines | strip | escape }}
                         <!-- Horizontal rule -->
                         <hr>
 
                         <!-- Information at the bottom of the card -->
-                        <span class="information">Published on <span class="has-text-weight-semibold">{{ post.date |
+                        <span class="information">Published on <span class="has-text-weight-semibold">{{ page.date |
                                 date: "%-B %d, %Y" }}</span></span> | <i class="fas fa-clock"></i> <span
-                            class="has-text-weight-semibold">{% assign words = post.content | number_of_words %}{%-
+                            class="has-text-weight-semibold">{% assign words = page.content | number_of_words %}{%-
                             unless content.size == 0 -%}{{ words | divided_by:180 }} min{% endunless %}</span> read
                     </div>
                 </div>

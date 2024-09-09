@@ -668,16 +668,16 @@ body { background-color: var(--background); }
     // }
 }
 
-#updates-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10vh;
-    margin-top: 5vh;
-    
-    .header-right {
-        display: flex;
-        align-items: center;
+#updates {
+    .description {
+        text-align: justify;
+    }
+    .header {
+        margin-bottom: 10vh;
+        margin-top: 5vh;
+    }
+    h2 {
+        margin-bottom: 2vh;
     }
 }
 

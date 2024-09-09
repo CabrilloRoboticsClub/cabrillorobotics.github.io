@@ -6,7 +6,7 @@ title: "SeaHawk"
 handle: "seahawk"
 subtitle: "Pioneer First Place Overall MATE World Championship"
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk-hero.webp
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+description:  "Seahawk is our second-generation ROV, designed for the MATE ROV competition. Building on lessons learned from our first ROV, Hydrozoa, we developed a completely new vehicle with more time and resources. While we kept the modular research-style frame for its adaptability, we made significant improvements.<br>We upgraded from a 4-thruster to an 8-thruster system, giving us 6 degrees of freedom (DOF) control. We also added a power box and expanded our power budget with new electronics. To enhance our tooling capabilities, we built a custom pneumatics manifold, as servos proved unreliable in previous designs. On the software side, we improved camera feeds and transitioned from ROS1 to ROS2 for better performance.<br>One challenge with the Seahawk was its overly modular design, which occasionally led to additional failures. Despite this, it was a major improvement over Hydrozoa and served its purpose well in competition."
 pdf: technical-report-2023.pdf
 showcase: "seahawk.html"
 gallery:
