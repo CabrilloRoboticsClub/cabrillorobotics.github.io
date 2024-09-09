@@ -545,7 +545,7 @@ body { background-color: var(--background); }
 
     .card-content {
         flex: 1;
-        padding: 16px; /* Adjust padding as needed */
+        padding: 16px;
     }
 
     .card:hover {
@@ -569,71 +569,6 @@ body { background-color: var(--background); }
     }
 }
 
-
-
-// #updates {
-//     // .container {
-//     //     margin: 1.5rem auto;
-//     // }
-
-//     #updates-card {
-//         transition: all 0.25s ease;
-//         margin-bottom: 0.5vmax;
-//         transform: scale(0.85);
-//         margin-right: 2.5vmax;
-//         margin-left: 2.5vmax;
-//         line-height: normal;
-//         border-radius: 0.25rem;
-//         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-//         -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-//         box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-
-//         &:hover {
-//             transform: scale(0.875);
-//             -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//             -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//             box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//         }
-
-//         @media (max-width: 768px) {
-//             transform: scale(1);
-//             margin-bottom: 5vmax !important;
-
-//             &:hover {
-//                 transform: scale(1.025);
-//                 margin-bottom: 5vmax !important;
-//                 -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//                 -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//                 box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-//             }
-
-//             .image {
-//                 padding-top: 50% !important;
-//             }
-//         }
-
-//         .title {
-//             margin: 0.5rem !important;
-//         }
-
-//         .content {
-//             margin: 0.5rem;
-//         }
-
-//         .column {
-//             display: grid;
-
-//             .image {
-//                 border-radius: 0.25rem;
-//                 background-position: center;
-//                 background-repeat: no-repeat;
-//                 background-size: cover;
-//             }
-//         }
-//     }
-// }
-
-// TODO: Get the icon on the far right 
 #search {
     display: flex;
     align-items: center;
@@ -1168,3 +1103,111 @@ body { background-color: var(--background); }
     }
 }
 
+#post-header {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch; 
+    }
+
+    .left-content {
+        margin-top: 5vh;
+        width: 60%;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .right-content {
+        margin-top: 5vh;
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+
+    .right-content h2 {
+        margin-bottom: 20px;
+        color: var(--header);
+        text-align: left;
+    }
+
+    figure.image {
+        width: 100%;
+        padding-top: 0;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        min-height: 10vh;
+        align-items: center;
+        display: flex;
+        background-color: var(--secondary-bkg);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.25s ease;
+        margin-bottom: 20px;
+    }
+
+    .card-content {
+        align-items: center;
+        text-align: left;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .tag {
+        background-color: var(--primary-bkg);
+        border-color: var(--primary);
+        color: var(--header);
+        border: 1px solid var(--primary);
+        border-radius: 1.5rem;
+    }
+    hr {
+        background-color: var(--text);
+        margin: 0;
+    }
+}
+
+#post-info {
+    h1 {
+        margin-bottom: 5vh;
+    }
+    .quick-take {
+        background-color: var(--secondary-bkg);
+        color: var(--header);
+        display: flex;
+        padding: 20px;
+        border-radius: 10px;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 5vh;
+    }
+    
+    .quick-label {
+        padding: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+#post-content {
+    p {
+        text-align: justify;
+        color: var(--text);
+    }
+    a {
+        color: var(--primary);
+    }
+}
+
+#post-showcase {
+    height: 100vh;
+}
