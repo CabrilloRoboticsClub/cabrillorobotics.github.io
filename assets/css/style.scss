@@ -1025,6 +1025,27 @@ body { background-color: var(--background); }
     }    
 }
 
+#support-us-how-to-donate {
+    .description {
+        color: var(--text);
+        text-align: justify;
+    }
+    .button {
+        color: var(--header);
+	    border-color: var(--primary);
+        background-color: var(--primary-bkg);
+    }
+    .button:hover {
+        background-color:var(--primary);
+  	    border-color:var(--primary);
+    }
+    .donate-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+}
+
 #post {
     @media (min-width: 768px) {
         margin: auto 2.5vmax;
@@ -1092,14 +1113,13 @@ body { background-color: var(--background); }
 
 #latest-project {
     .button {
-        color: var(--header)!important;
-	    border-color: var(--primary)!important;
+        color: var(--header);
+	    border-color: var(--primary);
         background-color: var(--primary-bkg);
     }
     .button:hover {
         background-color:var(--primary);
   	    border-color:var(--primary);
-  	    color:var(--header);
     }
 }
 
