@@ -12,20 +12,23 @@ layout: compress
 
     <section class="section" id="updates">
         <div class="container">
-            <div class ="header">
+            <div class="header">
                 <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
                     Updates
                 </h2>
                 <p class="description">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
+                    Welcome to our updates page! Here, you'll find a collection of posts providing a glimpse into our
+                    process of designing, building, and innovating robotic technology. These posts allow us to document
+                    a history of our progress and keep our community connected with ongoing developments.
                 </p>
             </div>
             {% for page in site.posts %}
-                {% include updates-card.html %}
+            {% include updates-card.html %}
             {% endfor %}
         </div>
     </section>
     <br>
 
     {% include footer.html %}
+
 </html>
