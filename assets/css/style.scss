@@ -430,6 +430,12 @@ body { background-color: var(--background); }
             margin: 0 auto;
             margin-bottom: 1rem;
         }
+        .buttons a:hover {
+            width: 90%; 
+            max-width: 90%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
     }
 }
 
@@ -706,8 +712,14 @@ body { background-color: var(--background); }
         margin-bottom: 10vh;
         margin-top: 5vh;
     }
-    h2 {
-        margin-bottom: 2vh;
+    // h2 {
+    //     margin-bottom: 2vh;
+    // }
+    .roles {
+        height: 40px;
+    }
+    .name {
+        margin-bottom: 5px;  
     }
     
     .popup {
