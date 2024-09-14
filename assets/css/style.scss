@@ -257,7 +257,10 @@ body { background-color: var(--background); }
 
 #project-summary {
     position: relative;
-    height: 30vh;
+    br {
+        margin-bottom: 2.5vh;
+    }
+    // height: 30vh;
     .hydrozoa .button {
         background-color: var(--hydrozoa-bkg);
         border-color: var(--hydrozoa);
