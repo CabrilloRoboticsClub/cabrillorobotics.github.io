@@ -981,6 +981,17 @@ body { background-color: var(--background); }
         position: relative;
     }
 
+    .cost {
+        font-weight: 400;
+        color: var(--text);
+    }
+
+    .tier {
+        font-weight: 600;
+        color: var(--header);
+        font-size: 1.2rem;
+    }
+
     td:nth-child(2) .circle {
         background-color: var(--primary);
     }
@@ -1024,7 +1035,8 @@ body { background-color: var(--background); }
 
     th {
         color: var(--header);
-        font-size: 25px;
+        // font-size: 25px;
+        font-size: 1.2rem;
     }
     
     th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5) {
