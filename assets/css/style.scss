@@ -854,12 +854,6 @@ body { background-color: var(--background); }
     .title {
         margin-bottom: 5vh;
     }
-    .subtitle {
-        margin-bottom: 5vh;
-        color: var(--header);
-        opacity: 0.8;
-
-    }
     .buttons {
         color: var(--primary)!important;
         display: flex;
@@ -897,6 +891,15 @@ body { background-color: var(--background); }
             max-width: 90%;
             margin: 0 auto;
             margin-bottom: 1rem;
+        }
+        .buttons a:hover {
+            width: 90%; 
+            max-width: 90%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+        .subtitle {
+            display: none;
         }
     }
 }
