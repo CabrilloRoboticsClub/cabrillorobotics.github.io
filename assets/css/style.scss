@@ -781,6 +781,18 @@ body { background-color: var(--background); }
         color: var(--header);
         font-weight: bold;
     }
+
+    @media (max-width: 768px) {
+        .popup-content {
+            flex-direction: column; 
+            max-width: 90%;
+            max-height: auto;
+        }
+        .popup-image-container {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 #members {
