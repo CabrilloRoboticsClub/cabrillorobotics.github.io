@@ -1,7 +1,7 @@
 ---
 title: After International Win, Cabrillo Robotics Announces Participation in RoboSub
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
+post-image: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/posts/after-international-win-cabrillo-robotics-announces-participation-in-robosub.webp"
 description: After three consecutive years of participation in the MATE competition, and three first place victories in their respective division, Cabrillo Robotics is ready to embark on a new challenge.
 tags:
 - RoboSub

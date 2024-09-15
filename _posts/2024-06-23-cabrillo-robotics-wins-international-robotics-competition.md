@@ -1,7 +1,7 @@
 ---
 title: Cabrillo Robotics Wins International Robotics Competition
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
+post-image: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/posts/cabrillo-robotics-wins-international-robotics-competition.webp"
 description: The Cabrillo Robotics Club achieved an impressive victory, taking home First Place in the most advanced category of the Marine Advanced Technology Education (MATE) World Championship.
 tags:
 - MATE
