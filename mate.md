@@ -1,3 +1,7 @@
 ---
 layout: comp
+title: "MATE"
+full-logo:
+title-logo: 
+description: "The MATE ROV Competition is an international robotics competition in which teams create underwater Remotely Operated Vehicles (ROVs).  ROVs are piloted, and are typically used for ocean exploration and precise manipulation of objects in hazardous areas. MATE ROV's competition attempts to mirror these missions, with tasks involving coral restoration, mooring array maintenance, and sample collections."
 ---
