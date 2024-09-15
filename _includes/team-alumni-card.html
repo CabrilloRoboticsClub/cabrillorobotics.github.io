@@ -53,7 +53,7 @@
                 popup_image.src = this.getAttribute("data-image");
                 popup_name.textContent = this.getAttribute("data-name");
                 popup_current.textContent = this.getAttribute("data-current");
-                popup_roles.textContent = this.getAttribute("data-roles");
+                popup_roles.textContent = this.getAttribute("data-roles").split("<br>").join(" -- ");
                 popup_description.textContent = this.getAttribute("data-description");
                 popup.classList.add("active");
             });
