@@ -1449,11 +1449,12 @@ body { background-color: var(--background); }
         .top-left {
             display: flex;
             margin: 5vh;
+            flex-direction: column;
+            align-items: flex-start;
         }
-        .bottom-left {
+        .bottom-right {
             display: flex;
             margin: 5vh;
-            flex-direction: column;
             align-items: flex-end;
         }
         .logo-container {
