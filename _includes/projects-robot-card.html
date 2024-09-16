@@ -3,16 +3,18 @@
     <div class="column" id="project-card">
         <a href="{{site.url}}{{site.baseurl}}/{{project.page}}" class="project-link">
             <figure class="image is-5by4" style="background-image: url({{project.image}});"></figure>
-            <div class="overlay">
-                <div class="top-left">
+        </a>
+        <div class="overlay">
+            <div class="top-left">
+                <div class="logo-container">
                     <img src="{{project.logo}}" alt="Logo" class="logo">
                 </div>
-                <div class="bottom-left">
-                    <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
-                    <p class="has-text-white-ter has-text-weight-normal">{{ project.award }}</p>
-                </div>
             </div>
-        </a>
+            <div class="bottom-left">
+                <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
+                <p class="has-text-white-ter has-text-weight-normal">{{ project.award }}</p>
+            </div>
+        </div>
     </div>
     {% endfor %}
 </div>
