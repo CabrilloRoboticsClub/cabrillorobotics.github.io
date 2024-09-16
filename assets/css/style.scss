@@ -1365,5 +1365,7 @@ body { background-color: var(--background); }
     .card {
         display: flex;
         flex-direction: column;
+        background-color: transparent;
+        box-shadow: none;
     }
 }
