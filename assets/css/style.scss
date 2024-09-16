@@ -1437,7 +1437,6 @@ body { background-color: var(--background); }
             transition: opacity 0.5s ease;
         }
         .top-left {
-            height: 10%;
             display: flex;
             margin: 5vh;
         }
@@ -1447,7 +1446,7 @@ body { background-color: var(--background); }
             margin: 5vh;
         }
         .logo {
-            max-width: 50px;
+            max-width: 200px;
         }
         .project-link {
             transition: all 0.25s ease;
@@ -1464,9 +1463,6 @@ body { background-color: var(--background); }
             position: relative;
             transition: opacity 0.5s ease;
             pointer-events: none;
-        }
-        .project-link:hover h2 {
-            color: var(--header) !important;
         }
         .project-link:hover {
             transform: scale(1.01);
