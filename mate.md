@@ -1,7 +1,7 @@
 ---
 layout: comp
 title: "MATE"
-full-logo: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate-logo.webp"
+full-logo: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-logo.webp"
 hero-bkg: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-hero-bkg.webp"
 hero-overlay: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-hero-overlay.webp"
 hero-logo: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-hero-logo.webp"

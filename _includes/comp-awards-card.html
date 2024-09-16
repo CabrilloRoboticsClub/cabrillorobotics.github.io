@@ -1,16 +1,19 @@
-
 <div class="grid" id="comp-awards-card">
-    {% for award in page.awards %}
-        <div class="column">
-                <div class="card">
-                    <div class="award-graphic">
-                        <img src="{{page.graphic}}" alt="Award graphic">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="name has-text-white-ter has-text-weight-bold is-size-6">{{ award.name }}</h2>
-                        <p class="roles has-text-weight-normal">{{ award.division }}</p>
+    {% for award_group in page.awards %}
+        {% for key, award_list in award_group %}
+            {% for award in award_list %}
+                <div class="column">
+                    <div class="card">
+                        <div class="award-graphic">
+                            <img src="{{ award.graphic }}" alt="Award graphic">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name has-text-white-ter has-text-weight-bold is-size-6">{{ award.name }}</h2>
+                            <p class="roles has-text-weight-normal">{{ award.division }}</p>
+                        </div>
                     </div>
                 </div>
-        </div>
+            {% endfor %}
+        {% endfor %}
     {% endfor %}
 </div>
