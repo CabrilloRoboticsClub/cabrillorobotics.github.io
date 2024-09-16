@@ -32,6 +32,7 @@
 p { color: var(--text); }
 .title { color: var(--header); }
 body { background-color: var(--background); }
+br { margin-bottom: 20px; }
 
 #navbar {
     // semi transparent
@@ -704,6 +705,9 @@ body { background-color: var(--background); }
         background-position: center;
         border-radius: 10px;
     }
+    br {
+        margin-bottom: 1px;
+    }
 }
 
 #team {
@@ -1104,9 +1108,6 @@ body { background-color: var(--background); }
         justify-content: center;
         margin-top: 5vh;
     }
-    br {
-        margin-bottom: 2vh;
-    }
 }
 
 #post {
@@ -1360,6 +1361,12 @@ body { background-color: var(--background); }
     }
 }
 
+#comp-description {
+    a {
+        color: var(--primary);
+    } 
+}
+
 #comp-awards-card{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -1369,6 +1376,24 @@ body { background-color: var(--background); }
         flex-direction: column;
         background-color: transparent;
         box-shadow: none;
+    }
+    br {
+        margin-bottom: 1px;
+    }
+}
+
+#comp-awards {
+    .description {
+        text-align: justify;
+    }
+    a {
+        color: var(--primary);
+    } 
+    .subtitle {
+        color: var(--header);
+        font-weight: 600;
+        text-align: left;
+        margin-top: 10px;
     }
 }
 
