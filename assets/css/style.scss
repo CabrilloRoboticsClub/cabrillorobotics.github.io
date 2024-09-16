@@ -190,7 +190,7 @@ body { background-color: var(--background); }
     }
 
     .card:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
 
     .popup {
@@ -534,8 +534,6 @@ body { background-color: var(--background); }
     }
 }
 
-
-
 #updates-card {
     .card {
         min-height: 25vh;
@@ -558,7 +556,7 @@ body { background-color: var(--background); }
     }
 
     .card:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
 
     hr {
@@ -695,7 +693,7 @@ body { background-color: var(--background); }
         background-color: var(--secondary-bkg);
     }
     .person-card:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
     .person-image {
         background-size: cover;
@@ -1240,7 +1238,7 @@ body { background-color: var(--background); }
     }
 
     .card:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
 
     .tag {
@@ -1394,10 +1392,15 @@ body { background-color: var(--background); }
     }
 }
 
-#projects-robot {
+#projects-robot-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    #projects-robot-card {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    #project-card {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -1408,7 +1411,6 @@ body { background-color: var(--background); }
             border-radius: 10px;
             overflow: hidden;
             transition: filter 0.5s ease, transform 0.5s ease;
-            filter: grayscale(100%);
         }
         .image::before {
             content: '';
@@ -1428,14 +1430,27 @@ body { background-color: var(--background); }
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-between;
+            align-items: left;
             text-align: center;
             pointer-events: none;
             transition: opacity 0.5s ease;
         }
-        .project-link:hover .image {
-            filter: grayscale(0%);
+        .top-left {
+            height: 10%;
+            display: flex;
+            margin: 5vh;
+        }
+        .bottom-left {
+            height: 10%;
+            display: flex;
+            margin: 5vh;
+        }
+        .logo {
+            max-width: 50px;
+        }
+        .project-link {
+            transition: all 0.25s ease;
         }
         .project-link:hover .image::before {
             opacity: 20;
@@ -1453,5 +1468,19 @@ body { background-color: var(--background); }
         .project-link:hover h2 {
             color: var(--header) !important;
         }
+        .project-link:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+
+
+#projects-intro {
+    .description {
+        text-align: justified;
+    }
+    .header {
+        margin-bottom: 10vh;
+        margin-top: 5vh;
     }
 }

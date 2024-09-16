@@ -4,8 +4,13 @@
         <a href="{{site.url}}{{site.baseurl}}/{{project.page}}" class="project-link">
             <figure class="image is-5by4" style="background-image: url({{project.image}});"></figure>
             <div class="overlay">
-                <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
-                <p class="has-text-white-ter has-text-weight-normal">{{ project.name }}</p>
+                <div class="top-left">
+                    <img src="{{project.logo}}" alt="Logo" class="logo">
+                </div>
+                <div class="bottom-left">
+                    <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
+                    <p class="has-text-white-ter has-text-weight-normal">{{ project.name }}</p>
+                </div>
             </div>
         </a>
     </div>
