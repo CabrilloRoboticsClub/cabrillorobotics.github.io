@@ -1357,3 +1357,13 @@ body { background-color: var(--background); }
         max-width: 300px;
     }
 }
+
+#comp-awards-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}

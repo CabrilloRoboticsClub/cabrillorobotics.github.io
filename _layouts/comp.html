@@ -11,7 +11,9 @@ layout: compress
     {% include navbar.html %}
     {% include comp-showcase.html %}
     {% include comp-description.html %}
-    {% include comp-awards.html %}
+    {% if page.awards %}
+        {% include comp-awards.html %}
+    {% endif %}
     {% include footer.html %}
 </body>
 </html>
