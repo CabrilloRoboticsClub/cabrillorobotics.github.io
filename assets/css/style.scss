@@ -528,6 +528,10 @@ body { background-color: var(--background); }
             transition: opacity 0.5s ease;
             pointer-events: none;
         }
+        p {
+            color: var(--header);
+            opacity: 0.7;
+        }
         .robot-link:hover h2 {
             color: var(--header) !important;
         }
