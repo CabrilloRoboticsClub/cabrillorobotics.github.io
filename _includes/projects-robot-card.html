@@ -1,0 +1,13 @@
+<div class="grid" id="projects-robot-card">
+    {% for project in site.data.projects %}
+    <div class="column" id="project-card">
+        <a href="{{site.url}}{{site.baseurl}}/{{project.page}}" class="project-link">
+            <figure class="image is-5by4" style="background-image: url({{project.image}});"></figure>
+            <div class="overlay">
+                <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
+                <p class="has-text-white-ter has-text-weight-normal">{{ project.name }}</p>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

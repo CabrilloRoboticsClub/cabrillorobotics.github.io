@@ -4,11 +4,60 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
     {% include navbar.html %}
+    <section class="section has-text-centered" id="sponsors">
+        <div class="container">
+            <div class="contents">
+                <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
+                    Sponsors
+                </h1>
+                <p class="description">
+                    Cabrillo Robotics Club depends on the generous support of our sponsors to continue our work in
+            creating and improving robotic technology. We give our sincerest gratitude to the organizations who have
+            supported us.
+                </p>
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--primary)">
+                    Lazer
+                </h2>
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--seahawk)">
+                    Diamond
+                </h2>
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--gold)">
+                    Gold
+                </h2>
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--silver)">
+                    Silver
+                </h2>
+            </div>
+            <p class="your-name-here">
+                Want your name here?
+            </p>
+            <br>
+            <div style="display: flex; justify-content: center;">
+                <a href="{{site.url}}{{site.baseurl}}/support-us"
+                    class="button is-rounded has-text-weight-normal is-outlined">Support Us</a>
+            </div>
+        </div>
+    </section>
     {% include footer.html %}
 </body>
+
 </html>
