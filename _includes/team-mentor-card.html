@@ -1,7 +1,7 @@
 <div id="team">
-    <div class="columns is-centered is-multiline is-mobile">
+    <div class="grid" id="team-grid">
         {% for mentor in site.data.mentors %}
-            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+            <div class="column">
                 <div class="person-card" 
                     data-image="{{mentor.image}}" 
                     data-name="{{ mentor.name }}" 
@@ -49,7 +49,7 @@
             card.addEventListener("click", function() {
                 popup_image.src = this.getAttribute("data-image");
                 popup_name.textContent = this.getAttribute("data-name");
-                popup_roles.textContent = this.getAttribute("data-roles");
+                popup_roles.textContent = this.getAttribute("data-roles").split("<br>").join(" -- ");
                 popup_description.textContent = this.getAttribute("data-description");
                 popup.classList.add("active");
             });

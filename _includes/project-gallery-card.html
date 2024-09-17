@@ -1,10 +1,59 @@
-<div class="columns is-centered is-multiline is-mobile">
-    {% for image in page.gallery %}
-        <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-            id="project-gallery-card">
-            <figure class="image is-5by4">
-                <img src="{{ image.image }}" alt="{{ image.text }}">
-            </figure>
+<div id="project-gallery-card">
+    <div class="grid" id="project-grid">
+        {% for image in page.gallery %}
+        <div class="column" id="project-card">
+                <div class="card"
+                    data-image="{{image.image}}" 
+                    data-text="{{ image.text }}" 
+                    data-credit="{{ image.credit }}">
+                    <figure class="image is-5by4">
+                        <img src="{{ image.image }}" alt="{{ image.text }}">
+                    </figure>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+  
+    <div id="image-popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <div class="popup-image-container">
+                <img id="popup-image" src="" alt="">
+            </div>
+            <div class="popup-writing">
+                <p id="popup-text"></p>
+                <p id="popup-credit"></p>
+            </div>
         </div>
-    {% endfor %}
+    </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const popup = document.getElementById("image-popup");
+        const popup_image = document.getElementById("popup-image");
+        const popup_text = document.getElementById("popup-text");
+        const popup_credit = document.getElementById("popup-credit");
+        const close_button = document.querySelector(".popup-close");
+
+        document.querySelectorAll(".card").forEach(function(card) {
+            card.addEventListener("click", function() {
+                popup_image.src = this.getAttribute("data-image");
+                popup_image.alt = this.getAttribute("data-text");
+                popup_text.textContent = this.getAttribute("data-text");
+                popup_credit.textContent = "Credit: " + this.getAttribute("data-credit");
+                popup.classList.add("active");
+            });
+        });
+
+        close_button.addEventListener("click", function() {
+            popup.classList.remove("active");
+        });
+
+        popup.addEventListener("click", function(event) {
+            if (event.target === popup) {
+                popup.classList.remove("active");
+            }
+        });
+    });
+</script>

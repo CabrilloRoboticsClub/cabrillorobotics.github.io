@@ -1,16 +1,16 @@
 - name: Lazer Shark
   year: 2025
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark.webp
   page: lazer-shark
 - name: SeaHawk II
   year: 2024
   page: seahawk-II
-  image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/f8ba704b6eca825e12aac7b4d636e93ff0945417/assets/images/seahawk-II/seahawk-II.jpeg?raw=true
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/seahawk-II.webp
 - name: SeaHawk
   year: 2023
   page: seahawk
-  image: https://github.com/CabrilloRoboticsClub/cabrillorobotics.github.io/blob/f8ba704b6eca825e12aac7b4d636e93ff0945417/assets/images/seahawk/seahawk.jpeg?raw=true
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk.webp
 - name: Other Robots
   year: More
-  page:
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/e0b1cf46fd4fb647c4dad56a6bdd2fae43bbefd7/assets/images/hydrozoa/hydrozoa.webp
+  page: projects
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/hydrozoa.webp

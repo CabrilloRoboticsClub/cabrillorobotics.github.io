@@ -1,0 +1,21 @@
+<section class="section has-text-justified has-background-black-bis" id="comp-description">
+    <div class="container">
+        <h2 class="title has-text-left has-text-white is-size-2 has-text-weight-bold">
+            What is {{ page.title }}
+        </h2>
+        <div class="columns">
+            <div
+                class="column has-text-justified-desktop has-justified-tablet has-justified-fullhd has-text-justified-widescreen">
+                <p>
+                    {{ page.description }}
+                </p>
+                <br>
+            </div>
+            <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
+                <figure class="image">
+                    <img src="{{ page.full-logo }}" alt="Competition logo">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>

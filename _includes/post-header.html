@@ -1,0 +1,31 @@
+<section class="section has-text-centered" id="post-header">
+    <div class="container">
+        <div class="content">
+            <div class="left-content">
+                <figure class="image is-16by9" style="background-image: url('{{page.post-image}}');"></figure>
+            </div>
+
+            <div class="right-content">
+                <div class="tags">
+                    {% for tag in page.tags %}
+                    <div class="tag">{{ tag }}</div>
+                    {% endfor %}
+                </div>
+
+                <h2 class="title has-text-white-ter is-size-2 has-text-weight-bold">
+                    More Updates
+                </h2>
+                {% for post in site.posts %}
+                <a href="{{ post.url | absolute_url }}">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="title has-text-white-ter is-size-4-touch">{{post.title | truncate: 100}}</h3>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>

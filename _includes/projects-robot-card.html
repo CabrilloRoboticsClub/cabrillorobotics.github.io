@@ -1,0 +1,20 @@
+<div class="grid" id="projects-robot-card">
+    {% for project in site.data.projects %}
+    <div class="column" id="project-card">
+        <a href="{{site.url}}{{site.baseurl}}/{{project.page}}" class="project-link">
+            <figure class="image is-5by4" style="background-image: url({{project.image}});"></figure>
+        </a>
+        <div class="overlay">
+            <div class="top-left">
+                <h2 class="has-text-weight-bold is-size-3">{{ project.year }}</h2>
+                <p class="has-text-white-ter has-text-weight-normal">{{ project.award }}</p>
+            </div>
+            <div class="bottom-right">
+                <div class="logo-container">
+                    <img src="{{project.logo}}" alt="Logo" class="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

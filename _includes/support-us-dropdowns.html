@@ -1,0 +1,74 @@
+<section class="section" id="support-us-dropdowns">
+    <div class="container">
+        <h2 class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Why Donate
+        </h2>
+        <p>
+            Cabrillo Robotics Club depends on the generous support of our sponsors to continue our work in
+            creating and improving robotic technology. We give our sincerest gratitude to the organizations who have
+            supported us.
+        </p>
+        <br>
+        <div class="accordion">
+            <button class="button has-text-weight-normal" onclick="toggleAccordion(this)">
+                <span>Invest in the Future</span>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="content">
+                <p>Cabrillo Robotics Club provides hands-on learning opportunities for students pursuing educational
+                    and career paths in science, technology, engineering, and mathematics (STEM) fields. Through
+                    engagement in robotics projects, our members develop valuable engineering and interpersonal skills
+                    that they carry into their future careers. Sponsoring the Cabrillo Robotics Club directly supports
+                    the development of future of engineering professionals.</p>
+            </div>
+
+            <button class="button has-text-weight-normal" onclick="toggleAccordion(this)">
+                <span>Networking</span>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="content">
+                <p>As community college students, our members are actively pursuing internships, participating in
+                    outreach events, and preparing to transfer to leading universities. By sponsoring the Cabrillo
+                    Robotics Club, your organization gains early exposure to a talented and motivated group of future
+                    engineers and innovators. This early engagement fosters familiarity with your products and services,
+                    creating a lasting connections which can lead to future opportunities.</p>
+            </div>
+
+            <button class="button has-text-weight-normal" onclick="toggleAccordion(this)">
+                <span>Brand Exposure</span>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="content">
+                <p>Our team participates in international robotics competitions, outreach events, and product
+                    showcases--providing valuable opportunities for exposure and engagement. These events attract
+                    industry leaders, educators, and potential customers. When we attend these events, we proudly
+                    represent our sponsors showcasing their logos on our team's promotional materials (see Sponsor
+                    Tiers). This exposure builds brand recognition within a marketable audience.</p>
+            </div>
+
+            <button class="button has-text-weight-normal" onclick="toggleAccordion(this)">
+                <span>Tax Deduction</span>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="content">
+                <p>The Cabrillo Robotics Club is incorporated as part of the Cabrillo College Foundation charitable organization.
+                    Thus any donation is deductible under IRS guidelines for 501(c)(3). Donations in the form of inventory 
+                    rather than cash, are typically deducted at their fair market value. We are unable to provide formal tax 
+                    advice due to our lack of qualifications. Please consult a Tax Professional or irs.gov. Specifically, IRS 
+                    Publication 526 contains information on deduction regulations regarding donations to 501(c)(3) organizations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function toggleAccordion(button) {
+        var content = button.nextElementSibling;
+        button.classList.toggle("active");
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + 10 + "px";
+        }
+    }
+</script>

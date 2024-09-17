@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://cabrillorobotics.org'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -11,7 +11,7 @@ title: Cabrillo Robotics Club
 # Description of the Site
 description: Student led robotics club at Cabrillo College in Aptos, California. 
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/f0905cbecd1b1167085058ae4c5352152cb95fad/assets/images/hero.webp
 # Keywords of the Site
 site-keywords: Robotics, Cabrillo Robotics Club, Lazer Shark, SeaHawk II, SeaHawk, Hydrozoa, MATE, RoboSub, ROV, AUV
 # URL for the Image of custom Favicon
@@ -48,7 +48,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+permalink: "updates/:title"
 
 # Compress
 compress_html:

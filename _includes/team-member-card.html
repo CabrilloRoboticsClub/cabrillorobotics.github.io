@@ -1,7 +1,7 @@
 <div id="team">
-    <div class="columns is-centered is-multiline is-mobile">
+    <div class="grid" id="team-grid">
         {% for member in site.data.members %}
-            <div class="column has-text-centered m-2 is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch">
+            <div class="column">
                 <div class="person-card" 
                     data-image="{{member.image}}" 
                     data-name="{{ member.name }}" 
@@ -10,8 +10,8 @@
                     <div class="card">
                         <figure class="image is-4by5" style="background-image: url({{member.image}});"></figure>
                         <div class="card-content">
-                            <h2 class="has-text-white-ter has-text-weight-bold is-size-6">{{ member.name }}</h2>
-                            <p class="has-text-weight-normal">{{ member.roles }}</p>
+                            <h2 class="name has-text-white-ter has-text-weight-bold is-size-6">{{ member.name }}</h2>
+                            <p class="roles has-text-weight-normal">{{ member.roles }}</p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
             card.addEventListener("click", function() {
                 popup_image.src = this.getAttribute("data-image");
                 popup_name.textContent = this.getAttribute("data-name");
-                popup_roles.textContent = this.getAttribute("data-roles");
+                popup_roles.textContent = this.getAttribute("data-roles").split("<br>").join(" -- ");
                 popup_description.textContent = this.getAttribute("data-description");
                 popup.classList.add("active");
             });

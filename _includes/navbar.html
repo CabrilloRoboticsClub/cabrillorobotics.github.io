@@ -19,9 +19,14 @@
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">Home</a>
                 <a class="navbar-item {% if page.layout == 'team' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/team">Team</a>
-                <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/blog">Updates</a>
-                {% include dropdown.html %}
+                {% include project-dropdown.html %}
+                {% include comp-dropdown.html %}
+                <a class="navbar-item {% if page.layout == 'updates' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/updates">Updates</a>
+                <a class="navbar-item {% if page.layout == 'sponsors' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/sponsors">Sponsors</a>
+                <a class="navbar-item {% if page.layout == 'support-us' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/support-us">Support Us</a>
             </div>
         </div>
     </div>

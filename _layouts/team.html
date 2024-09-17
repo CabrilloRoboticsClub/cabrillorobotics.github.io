@@ -11,29 +11,39 @@ layout: compress
 
 <body>
     {% include navbar.html %}
-    {% include team-showcase.html %}
     <section class="section has-text-centered" id="team">
         <div class="container">
-            <div class="description has-text-left">
-                <p>
+            <div class="contents">
+                <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
+                    Meet the Team
+                </h1>
+                <p class="description">
                     Cabrillo Robotics Club (CRC) is a dedicated team of students from Cabrillo College in Aptos, California united by a mutual passion for robotics. We design and engineer cutting-edge solutions, drawing from the diverse experience and knowledge of our interdisciplinary members. The team is structured into four specialized subteams: Electrical, Mechanical, Software, and Marketing. This decentralized approach fosters autonomy within each division, allowing members to focus on their areas of expertise, while working collaboratively to create innovative and reliable robotic systems.
                 </p>
             </div>
-            <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" id="members">
-                Members
-            </h2>
-            {% include team-member-card.html %}
-            <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
-                Mentors
-            </h2>
-            {% include team-mentor-card.html %}
-            <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
-                Alumni
-            </h2>
-            {% include team-alumni-card.html %}
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
+                    Members
+                </h2>
+                {% include team-member-card.html %}
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
+                    Mentors
+                </h2>
+                {% include team-mentor-card.html %}
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium">
+                    Alumni
+                </h2>
+                {% include team-alumni-card.html %}
+            </div>
         </div>
     </section>
-    <!--Footer-->
     {% include footer.html %}
 </body>
 

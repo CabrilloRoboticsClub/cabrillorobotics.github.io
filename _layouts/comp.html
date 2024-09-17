@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include navbar.html %}
+    {% include comp-showcase.html %}
+    {% include comp-description.html %}
+    {% if page.awards %}
+        {% include comp-awards.html %}
+    {% endif %}
+    {% include footer.html %}
+</body>
+</html>

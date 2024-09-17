@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    <section class="section" id="projects-intro">
+        <div class="container">
+            <div class="header">
+                <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
+                    Projects
+                </h1>
+                <p class="description">
+                    The Cabrillo Robotics Club has undertaken a variety of projects throughout its history. Each year, the club dedicates its focus to a new project driven by the interests of the current members. From autonomous land vehicles to remotely operated and autonomous underwater vehicles--the following robots are the product of hundreds of hours of student dedication and innovation. 
+                </p>
+            </div>
+            <div class="container">
+                {% include projects-robot-card.html %}
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+</body>
+
+</html>
