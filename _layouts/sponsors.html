@@ -30,10 +30,30 @@ layout: compress
                 </h2>
             </div>
 
+            <div class="sponsor-thing">
+                {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level == "lazer" %}
+                <a href="{{sponsor.website}}">
+                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
+                </a>    
+                {% endif %}
+                {% endfor %}
+            </div>
+
             <div class="contents">
                 <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--seahawk)">
                     Diamond
                 </h2>
+            </div>
+
+            <div class="sponsor-thing">
+                {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level == "diamond" %}
+                <a href="{{sponsor.website}}">
+                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
+                </a>    
+                {% endif %}
+                {% endfor %}
             </div>
 
             <div class="contents">
@@ -42,10 +62,30 @@ layout: compress
                 </h2>
             </div>
 
+            <div class="sponsor-thing">
+                {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level == "gold" %}
+                <a href="{{sponsor.website}}">
+                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
+                </a>    
+                {% endif %}
+                {% endfor %}
+            </div>
+
             <div class="contents">
                 <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--silver)">
                     Silver
                 </h2>
+            </div>
+
+            <div class="sponsor-thing">
+                {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level == "silver" %}
+                <a href="{{sponsor.website}}">
+                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
+                </a>    
+                {% endif %}
+                {% endfor %}
             </div>
             <p class="your-name-here">
                 Want your name here?

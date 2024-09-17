@@ -1436,6 +1436,14 @@ br { margin-bottom: 20px; }
 }
 
 #sponsors {
+    #sponsor-thing {
+        display: flex;
+        align-items: center;
+        .img {
+            display: block;
+            float: left;
+        }
+    }
     .description {
         text-align: justify;
     }
