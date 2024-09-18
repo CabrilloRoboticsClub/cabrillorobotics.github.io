@@ -3,23 +3,27 @@
   link:
   roles: President<br>Software & Marketing
   description: Stephanie is a sophomore studying CS and mechatronics. She plans to pursue a career in software development for robotics after completing a bachelors and masters program.
+
 - name: Liam Gilligan
   link:
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   roles: Treasurer<br>Software Lead
   description: Liam is a sophomore studying Math and Physics. He plans to continue his education and pursue a career in research and academia.
+
 - name: Isaac Wax
   link:
   image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   roles: Hardware Lead<br>Electrical & Mechanical
   description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.
+
 - name: Rowan Garties
   link:
   roles: Mechanical
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
   description: Rowan is a sophomore pursuing a bachelors and then a masters in MechE. After school he wants to pursue a career in naval or aerospace engineering.
+
 - name: Massimo Ginella
   link:
   roles: Software
-  image: https://cdn.pixabay.com/photo/2016/12/02/02/10/idea-1876659_960_720.jpg
-  description: Massimo is in his sophomore year studying CS. He plans to transfer to a 4 year institution and pursue Artificial Intelligence development after college. He also loves legos and kitty cats.
+  image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/massimo.webp
+  description: Massimo is a computer science major and honors transfer cohort member at Cabrillo College. He has goals to transfer to a 4 year university and to pursue a career in Artificial Intelligence development. On his spare time, Massimo likes to skate, play with neighborhood cats, code, and drum.
