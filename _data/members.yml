@@ -12,7 +12,7 @@
 
 - name: Isaac Wax
   link:
-  image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/isaac.webp
   roles: Hardware Lead<br>Electrical & Mechanical
   description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.
 
@@ -21,3 +21,9 @@
   roles: Software
   image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/massimo.webp
   description: Massimo is a computer science major and honors transfer cohort member at Cabrillo College. He has goals to transfer to a 4 year university and to pursue a career in Artificial Intelligence development. On his spare time, Massimo likes to skate, play with neighborhood cats, code, and drum.
+
+- name: James Truong
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/james.webp
+  roles: =Mechanical
+  description: "James is studying to be a mechanical engineer. He plans to transfer to a 4 year university to get a career as a professional engineer. His hobbies include 3D design and CAD, as well as hiking the woods."
