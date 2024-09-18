@@ -1,8 +1,8 @@
 - name: SolidWorks
-  logo: https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/solidworks.svg
   level: lazer
   website: https://www.solidworks.com/
 - name: Cito Medical
-  logo: https://citomedical.com/wpd/wp-content/uploads/2020/12/cito-logo.jpg
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/cito.svg
   level: lazer
   website: https://citomedical.com
