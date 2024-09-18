@@ -19,8 +19,9 @@ layout: compress
                 </h1>
                 <p class="description">
                     Cabrillo Robotics Club depends on the generous support of our sponsors to continue our work in
-            creating and improving robotic technology. We give our sincerest gratitude to the organizations who have
-            supported us.
+                    creating and improving robotic technology. We give our sincerest gratitude to the organizations who
+                    have
+                    supported us.
                 </p>
             </div>
 
@@ -30,12 +31,16 @@ layout: compress
                 </h2>
             </div>
 
-            <div class="sponsor-thing">
+            <div class="sponsor-grid">
                 {% for sponsor in site.data.sponsors %}
                 {% if sponsor.level == "lazer" %}
-                <a href="{{sponsor.website}}">
-                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
-                </a>    
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -46,12 +51,16 @@ layout: compress
                 </h2>
             </div>
 
-            <div class="sponsor-thing">
+            <div class="sponsor-grid">
                 {% for sponsor in site.data.sponsors %}
                 {% if sponsor.level == "diamond" %}
-                <a href="{{sponsor.website}}">
-                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
-                </a>    
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -62,12 +71,16 @@ layout: compress
                 </h2>
             </div>
 
-            <div class="sponsor-thing">
+            <div class="sponsor-grid">
                 {% for sponsor in site.data.sponsors %}
                 {% if sponsor.level == "gold" %}
-                <a href="{{sponsor.website}}">
-                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
-                </a>    
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
                 {% endif %}
                 {% endfor %}
             </div>
@@ -78,15 +91,20 @@ layout: compress
                 </h2>
             </div>
 
-            <div class="sponsor-thing">
+            <div class="sponsor-grid">
                 {% for sponsor in site.data.sponsors %}
                 {% if sponsor.level == "silver" %}
-                <a href="{{sponsor.website}}">
-                    <img src="{{sponsor.logo}}" alt="{{sponsor.name}}" style="width:25%">
-                </a>    
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
                 {% endif %}
                 {% endfor %}
             </div>
+
             <p class="your-name-here">
                 Want your name here?
             </p>

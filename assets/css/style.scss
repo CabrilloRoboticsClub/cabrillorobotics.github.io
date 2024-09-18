@@ -1436,13 +1436,16 @@ br { margin-bottom: 20px; }
 }
 
 #sponsors {
-    #sponsor-thing {
-        display: flex;
+    .sponsor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         align-items: center;
-        .img {
-            display: block;
-            float: left;
-        }
+    }
+    .sponsor-card {
+        transition: all 0.25s ease;
+    }
+    .sponsor-card:hover {
+        transform: scale(1.01);
     }
     .description {
         text-align: justify;
