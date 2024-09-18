@@ -1,12 +1,12 @@
 - name: Stephanie L'Heureux
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/steph.webp
   link:
   roles: President<br>Software & Marketing
   description: Stephanie is a sophomore studying CS and mechatronics. She plans to pursue a career in software development for robotics after completing a bachelors and masters program.
 
 - name: Liam Gilligan
   link:
-  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/liam.webp
   roles: Treasurer<br>Software Lead
   description: Liam is a sophomore studying Math and Physics. He plans to continue his education and pursue a career in research and academia.
 
@@ -15,12 +15,6 @@
   image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
   roles: Hardware Lead<br>Electrical & Mechanical
   description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.
-
-- name: Rowan Garties
-  link:
-  roles: Mechanical
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
-  description: Rowan is a sophomore pursuing a bachelors and then a masters in MechE. After school he wants to pursue a career in naval or aerospace engineering.
 
 - name: Massimo Ginella
   link:
