@@ -1,7 +1,7 @@
 - name: Lazer Shark
   year: 2025
   image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark.webp
-  logo: 
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark-logo.webp
   award: RoboSub AUV
   page: lazer-shark
 - name: SeaHawk II
