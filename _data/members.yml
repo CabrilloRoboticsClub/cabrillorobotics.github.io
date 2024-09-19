@@ -10,12 +10,6 @@
   roles: Treasurer<br>Software Lead
   description: Liam is a sophomore studying Math and Physics. He plans to continue his education and pursue a career in research and academia.
 
-- name: Teo Schnell
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/teo.webp
-  link:
-  roles: Secretary<br>Software & Electrical
-  description: Teo is a sophomore at Cabrillo College, studying Computer & Aerospace Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
-
 - name: Isaac Wax
   link:
   image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/isaacw.webp
@@ -24,9 +18,15 @@
 
 - name: Massimo Ginella
   link:
-  roles: Software
+  roles: ICC Representative<br>Software
   image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/massimo.webp
   description: Massimo is a computer science major and honors transfer cohort member at Cabrillo College. He has goals to transfer to a 4 year university and to pursue a career in Artificial Intelligence development. On his spare time, Massimo likes to skate, play with neighborhood cats, code, and drum.
+
+- name: Teo Schnell
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/teo.webp
+  link:
+  roles: Secretary<br>Software & Electrical
+  description: Teo is a sophomore at Cabrillo College, studying Computer & Aerospace Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
 
 - name: James Truong
   link:
