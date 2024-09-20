@@ -1027,6 +1027,7 @@ br { margin-bottom: 20px; }
         margin: 0;
     }
 }
+
 #support-us-tiers {
     table {
         width: 100%;
@@ -1069,6 +1070,10 @@ br { margin-bottom: 20px; }
         background-color: var(--silver);
     }
 
+    td:nth-child(6) .circle {
+        background-color: var(--seahawk-II);
+    }
+
     td:nth-child(2) {
         background-color: var(--primary-bkg);
     }
@@ -1085,6 +1090,10 @@ br { margin-bottom: 20px; }
         background-color: var(--silver-bkg);
     }
 
+    td:nth-child(6) {
+        background-color: var(--seahawk-II-bkg);
+    }
+
     th:first-child {
         text-align: left;
         width: 40%;
@@ -1099,8 +1108,8 @@ br { margin-bottom: 20px; }
         font-size: 1.2rem;
     }
 
-    th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5) {
-        width: calc((100% - 40%) / 4);
+    th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6){
+        width: calc((100% - 40%) / 5);
         text-align: center;
     }
 
@@ -1137,24 +1146,24 @@ br { margin-bottom: 20px; }
         text-align: justify;
     }
     .button {
-        min-width: 40%;
-        min-height: 10vh;
-        font-size: x-large;
+        min-width: 35%;
+        min-height: 60px;
+        font-size: 1.2rem;
         color: var(--header);
 	    border-color: var(--primary);
         background-color: var(--primary-bkg);
     }
     .button:hover {
-        min-width: 40%;
-        min-height: 10vh;
-        font-size: x-large;
+        min-width: 35%;
+        min-height: 60px;
+        font-size: 1.2rem;
         background-color:var(--primary);
   	    border-color:var(--primary);
     }
     .donate-button {
         display: flex;
         justify-content: center;
-        margin-top: 5vh;
+        margin-top: 40px;
     }
 }
 

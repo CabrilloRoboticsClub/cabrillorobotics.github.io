@@ -15,7 +15,7 @@ layout: compress
         <div class="container">
             <div class="contents">
                 <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
-                    Sponsors
+                    2025 Sponsors
                 </h1>
                 <p class="description">
                     Cabrillo Robotics Club depends on the generous support of our sponsors to continue our work in
@@ -94,6 +94,27 @@ layout: compress
             <div class="sponsor-grid">
                 {% for sponsor in site.data.sponsors %}
                 {% if sponsor.level == "silver" %}
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="contents">
+                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium"
+                    style="color: var(--seahawk-II)">
+                    Bronze
+                </h2>
+            </div>
+
+            <div class="sponsor-grid">
+                {% for sponsor in site.data.sponsors %}
+                {% if sponsor.level == "bronze" %}
                 <div class="column">
                     <div class="sponsor-card">
                         <a href="{{sponsor.website}}">
