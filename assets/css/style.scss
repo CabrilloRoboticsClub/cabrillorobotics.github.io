@@ -1128,7 +1128,7 @@ br { margin-bottom: 20px; }
             padding: 5px;
         }
         th {
-            font-size: 0.70rem;
+            font-size: 0.65rem;
         }
         table {
             font-size: 0.70rem;
@@ -1142,9 +1142,6 @@ br { margin-bottom: 20px; }
         }
         th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6){
             width: calc((100% - 20%) / 5);
-        }
-        td:nth-child(4) {
-            background-color: pink;
         }
     }
 }
