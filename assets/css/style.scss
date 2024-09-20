@@ -139,7 +139,7 @@ br { margin-bottom: 20px; }
 
 #project-showcase {
     position: relative;
-    height: 50vh;
+    height: 35vh;
     background: var(--background);
 
     .hero-background {
@@ -263,9 +263,6 @@ br { margin-bottom: 20px; }
 
 #project-summary {
     position: relative;
-    br {
-        margin-bottom: 2.5vh;
-    }
     .description {
         text-align: justify;
     }
