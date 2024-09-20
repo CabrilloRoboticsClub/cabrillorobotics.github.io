@@ -300,6 +300,10 @@ br { margin-bottom: 20px; }
         background-color: var(--seahawk-II);
         border-color: var(--seahawk-II);
     }
+
+    .seahawk-II a {
+        color: var(--seahawk-II);
+    }
 }
 
 #seahawk-II-rov-features {
@@ -308,6 +312,7 @@ br { margin-bottom: 20px; }
         flex-wrap: wrap;
         gap: 1rem;
         color: var(--text);
+        font-size: var(--paragraph-size);
     }
     
     .column {
