@@ -207,6 +207,26 @@ br { margin-bottom: 20px; }
             text-align: center;
         }
     }
+
+    @media (max-width: 750px){
+        height: 50vh;
+        .overlay {
+            align-items: flex-end;
+            justify-content: flex-start;
+        }
+        .scroll-down {
+            display: none;
+        }
+        .title-text {
+            text-align: left;
+        }
+        .title-text h1 {
+            font-size: 0.9rem;
+        }
+        .hero-background {
+            background-attachment: local;
+        }
+    }
 }
 
 #project-gallery-card {
@@ -329,7 +349,9 @@ br { margin-bottom: 20px; }
     .seahawk-II a {
         color: var(--seahawk-II);
     }
-
+    @media (max-width: 750px){ 
+        padding-top: 50px;
+    }
 }
 
 #seahawk-II-rov-features {
