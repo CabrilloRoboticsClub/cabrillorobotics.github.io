@@ -4,18 +4,24 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
+
 <head>
     {% include head.html %}
 </head>
 
 <body>
-    {% include navbar.html %}
-    <div id="post-showcase">
-        {% include post-header.html %}
+    <div id="post">
+        {% include navbar.html %}
+        <div class="desktop">
+            {% include post-header.html %}
+        </div>
         {% include post-info.html %}
+        {% include post-content.html %}
+        <div class="mobile">
+            {% include post-header.html %}
+        </div>
+        {% include footer.html %}
     </div>
-
-    {% include post-content.html %}
-    {% include footer.html %}
 </body>
+
 </html>
