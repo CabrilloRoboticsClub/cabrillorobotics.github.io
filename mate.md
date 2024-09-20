@@ -19,16 +19,17 @@ awards:
     graphic: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-all-around-champion-2023.webp"
   - year: 2022
     division: "PIONEER"
+    name: "First Place<br>All-Around Champion"
+    graphic: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-all-around-champion-2022.webp"
+  - year: 2022
+    division: "PIONEER"
     name: "Technical Documentation"
     graphic: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-2022.webp"
   - year: 2022
     division: "PIONEER"
     name: "Engineering Presentation"
     graphic: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-2022.webp"
-  - year: 2022
-    division: "PIONEER"
-    name: "First Place<br>All-Around Champion"
-    graphic: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/comps/mate/mate-all-around-champion-2022.webp"
+
 
 
 ---
