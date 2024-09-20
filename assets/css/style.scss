@@ -197,6 +197,16 @@ br { margin-bottom: 20px; }
             transform: translateY(-10px);
         }
     }
+
+    @media (max-width: 1500px){
+        .overlay {
+            align-items: center;
+            justify-content: center;
+        }
+        .title-text {
+            text-align: center;
+        }
+    }
 }
 
 #project-gallery-card {
@@ -319,6 +329,7 @@ br { margin-bottom: 20px; }
     .seahawk-II a {
         color: var(--seahawk-II);
     }
+
 }
 
 #seahawk-II-rov-features {
