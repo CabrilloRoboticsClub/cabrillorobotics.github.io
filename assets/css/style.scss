@@ -1137,12 +1137,10 @@ br { margin-bottom: 20px; }
             width: 15px;
             height: 15px;
         }
-        table {
-            font-size: 0.70rem;
-        }
         th:first-child {
             text-align: left;
             width: 20%;
+            font-size: 0.70rem;
         }
         th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6){
             width: calc((100% - 20%) / 5);
