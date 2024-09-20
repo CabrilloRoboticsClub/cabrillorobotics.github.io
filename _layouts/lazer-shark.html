@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-halfheight has-text-left" id="project-showcase">
+        <figure class="hero-background" style="background-image: url('{{ page.hero-image }}');">
+            <div class="overlay">
+                <div class="container is-lower-left">
+                    <div class="title-text">
+                        <h3 class="subtitle has-text-white-ter has-text-weight-medium">
+                            {{ page.comp }}
+                        </h3>
+                        <h1 class="title has-text-white-ter is-size-1 is-uppercase has-text-weight-bold">
+                            {{ page.title }}
+                        </h1>
+                        <div class="{{page.handle}}">
+                            <h3 class="subtitle has-text-weight-light">
+                                {{ page.subtitle }}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </section>
+    
+    <section class="section" id="project-summary">
+        <div class="container">
+            <div class="description">
+                <p>
+                    {{page.description}}
+                </p>
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+</body>
+
+</html>
