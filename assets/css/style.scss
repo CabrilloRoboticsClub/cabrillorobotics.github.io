@@ -177,6 +177,9 @@ br { margin-bottom: 20px; }
     .seahawk-II .subtitle {
         color: var(--seahawk-II);
     }
+    .lazer-shark .subtitle {
+        color: var(--primary);
+    }
 }
 
 #project-gallery-card {
@@ -263,7 +266,9 @@ br { margin-bottom: 20px; }
     br {
         margin-bottom: 2.5vh;
     }
-    // height: 30vh;
+    .description {
+        text-align: justify;
+    }
     .hydrozoa .button {
         background-color: var(--hydrozoa-bkg);
         border-color: var(--hydrozoa);
