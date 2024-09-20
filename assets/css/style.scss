@@ -1124,11 +1124,9 @@ br { margin-bottom: 20px; }
         table {
             border-spacing: 5px;
         }
-
         th, td {
             padding: 5px;
         }
-
         th {
             font-size: 0.70rem;
         }
@@ -1140,12 +1138,13 @@ br { margin-bottom: 20px; }
             height: 15px;
         }
         th:first-child {
-            text-align: left;
             width: 20%;
         }
         th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6){
             width: calc((100% - 20%) / 5);
-            text-align: center;
+        }
+        td:nth-child(4) {
+            background-color: pink;
         }
     }
 }
