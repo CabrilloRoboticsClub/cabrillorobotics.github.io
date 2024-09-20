@@ -1130,12 +1130,23 @@ br { margin-bottom: 20px; }
         }
 
         th {
-            font-size: 0.75rem;
+            font-size: 0.70rem;
         }
 
         .circle {
             width: 15px;
             height: 15px;
+        }
+        table {
+            font-size: 0.70rem;
+        }
+        th:first-child {
+            text-align: left;
+            width: 20%;
+        }
+        th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6){
+            width: calc((100% - 20%) / 5);
+            text-align: center;
         }
     }
 }
