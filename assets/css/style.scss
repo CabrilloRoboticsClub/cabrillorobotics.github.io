@@ -1128,7 +1128,6 @@ br { margin-bottom: 20px; }
     }
 }
 
-
 #support-us-how-to-donate {
     .description {
         color: var(--text);
@@ -1437,9 +1436,9 @@ br { margin-bottom: 20px; }
         font-weight: 600;
     }
     .button {
-        background-color: transparent;
+        background-color: var(--primary-bkg);
         border-color: var(--primary);
-        color: var(--primary);
+        color: var(--header);
     }
     .button:hover {
         background-color: var(--primary);
