@@ -348,9 +348,7 @@ br { margin-bottom: 20px; }
     }
 
     @media screen and (max-width: 600px) {
-        .column {
-            flex: 1 1 100%;
-        }
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 
