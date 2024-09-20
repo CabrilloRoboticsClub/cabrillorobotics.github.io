@@ -312,7 +312,7 @@ br { margin-bottom: 20px; }
     
     .column {
         flex: 1;
-        min-width: 400px;
+        min-width: auto;
     }
 
     ul {
@@ -349,6 +349,7 @@ br { margin-bottom: 20px; }
 
     @media (max-width: 768px){
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        min-width: auto;
     }
 }
 
