@@ -31,10 +31,22 @@
 }
 
 // Global settings
-p { color: var(--text); font-size: var(--paragraph-size); }
 .title { color: var(--header); }
 body { background-color: var(--background); }
 br { margin-bottom: 20px; }
+
+p { 
+    color: var(--text); 
+    font-size: var(--paragraph-size); 
+    text-align: justify;
+}
+
+@media (max-width: 768px){ 
+    p {
+        text-align: left;
+    }
+}
+
 
 #navbar {
     // semi transparent
@@ -208,7 +220,7 @@ br { margin-bottom: 20px; }
         }
     }
 
-    @media (max-width: 750px){
+    @media (max-width: 768px){
         height: 50vh;
         .overlay {
             align-items: flex-end;
@@ -312,9 +324,6 @@ br { margin-bottom: 20px; }
 #project-summary {
     padding-top: 100px;
     position: relative;
-    .description {
-        text-align: justify;
-    }
     .hydrozoa .button {
         background-color: var(--hydrozoa-bkg);
         border-color: var(--hydrozoa);
@@ -356,12 +365,14 @@ br { margin-bottom: 20px; }
 }
 
 #seahawk-II-rov-features {
+    display: grid;
     .features {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         color: var(--text);
         font-size: var(--paragraph-size);
+        text-align: justify;
     }
     
     .column {
@@ -399,10 +410,6 @@ br { margin-bottom: 20px; }
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-    }
-
-    @media (max-width: 768px){
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 
@@ -526,7 +533,6 @@ br { margin-bottom: 20px; }
             border-radius: 0px 0px 10px 10px;
         }
         .feature-description {
-            text-align: justify;
             margin-top: 10px;
         }
     }
@@ -675,9 +681,6 @@ br { margin-bottom: 20px; }
 }
 
 #updates {
-    .description {
-        text-align: justify;
-    }
     .header {
         margin-bottom: 10vh;
         margin-top: 5vh;
@@ -808,15 +811,13 @@ br { margin-bottom: 20px; }
 }
 
 #team {
-    .description {
-        text-align: justify;
-    }
     .contents {
         margin-bottom: 10vh;
         margin-top: 5vh;
     }
 
     .roles {
+        text-align: center;
         height: 40px;
         font-size: 12px;
     }
@@ -1201,10 +1202,6 @@ br { margin-bottom: 20px; }
 }
 
 #support-us-how-to-donate {
-    .description {
-        color: var(--text);
-        text-align: justify;
-    }
     .button {
         min-width: 35%;
         min-height: 60px;
@@ -1352,7 +1349,6 @@ br { margin-bottom: 20px; }
         align-items: center;
         text-align: left;
         margin-bottom: 20px;
-        text-align: justify;
     }
     
     .quick-label {
@@ -1370,10 +1366,6 @@ br { margin-bottom: 20px; }
 }
 
 #post-content {
-    p {
-        text-align: justify;
-        color: var(--text);
-    }
     a {
         color: var(--primary);
     } 
@@ -1467,12 +1459,12 @@ br { margin-bottom: 20px; }
     br {
         margin-bottom: 1px;
     }
+    .year {
+        text-align: center;
+    }
 }
 
 #comp-awards {
-    .description {
-        text-align: justify;
-    }
     a {
         color: var(--primary);
     } 
@@ -1495,9 +1487,6 @@ br { margin-bottom: 20px; }
     }
     .sponsor-card:hover {
         transform: scale(1.01);
-    }
-    .description {
-        text-align: justify;
     }
     .contents {
         margin-bottom: 10vh;
@@ -1617,9 +1606,6 @@ br { margin-bottom: 20px; }
 
 
 #projects-intro {
-    .description {
-        text-align: justify;
-    }
     .header {
         margin-bottom: 10vh;
         margin-top: 5vh;
