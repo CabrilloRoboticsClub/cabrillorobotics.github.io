@@ -359,6 +359,11 @@ p {
     .seahawk-II a {
         color: var(--seahawk-II);
     }
+
+    .lazer-shark a {
+        color: var(--primary);
+    }
+
     @media (max-width: 750px){ 
         padding-top: 50px;
     }
