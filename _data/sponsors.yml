@@ -2,7 +2,13 @@
   logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/solidworks.svg
   level: lazer
   website: https://www.solidworks.com/
+
 - name: Cito Medical
   logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/cito.svg
   level: lazer
   website: https://citomedical.com
+
+- name: SBG Systems
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/sbg_systems.svg
+  level: lazer
+  website: https://www.sbg-systems.com/
