@@ -1,0 +1,166 @@
+<section class="section" id="rs-post-content">
+    <div class="container">
+        <h2
+            class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Software
+        </h2>
+        
+        <div class="text has-text-justified">
+            <p>
+                Developing software for an AUV is a significant leap from the code we wrote for the SeaHawk II ROV last year. Luckily, our experience and existing codebase for the SeaHawk II meant most of our time was focused on the AUV specific additions, mainly computer vision and navigation. Of course, in order to properly navigate, we would need more sophisticated sensors as well as a simulation environment in order to sanity check our work.
+            </p>
+        </div>
+
+        <h3
+            class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+            Simulator
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                While LazerShark's hardware is still in development, our software team can validate code through simulation-based testing. We have integrated the Gazebo simulation platform into our ROS-based software stack, enabling software testing on a physically accurate virtual model of the AUV. The simulated vehicle and environment include custom buoyancy modeling, hydrodynamics, and various sensors. This approach allows for continuous development without a physical prototype or testing site, enabling software and hardware development to progress in parallel and rapid testing. So far, the simulator has allowed us to develop and validate the foundation of the navigation systems.
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Sensor Integration
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                Just like us, robots have different "senses" to understand the world around them. Alone, our eyes may not provide a complete picture, but when combined with our other senses, we can accurately perceive what's happening. The LazerShark will be equipped with multiple sensors to achieve a comprehensive understanding of its environment, including a stereoscopic camera, depth sensor, inertial measurement units (IMUs), and a Doppler velocity logger (DVL). So far, we have written drivers for the IMUs and DVL. The IMUs provide information about the AUV's acceleration and heading, and the DVL allows us to measure the AUV's velocity and altitude. Given the sensor readings, an estimated pose of the robot is achieved through an Extended Kalman Filter (EKF). 
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Control Systems
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                In order for a robot to navigate through the world, a lot has to go right. Sensors have to be integrated to properly take measurements about the robot's movements, the cameras and the CV systems have to properly localize it in relation to its environment, and the EKF has to provide an accurate estimate of the robot's pose. However, once these parts are working properly, the question remains: how do we drive the robot's motors to navigate from one place to another? There are many different approaches, but ours relies on the field of Optimal Control Theory–specifically the Linear Quadratic Regulator. A Linear Quadratic Regulator, or LQR, provides an array of output (a twist, in our case) given the offset of the robot's pose from a desired pose. We chose an LQR over a simpler PID control scheme for a couple reasons. Mainly, a LQR allows us to model the dynamics of the robot, which is basically how the state evolves from a given state, as well as how it evolves according to the inputs provided. This allows us to account for the robot's drag, mass, and rotational inertias in the control systems. The second reason is the tuning parameters – as opposed to the PID controllers whose tuning parameters rely on repeated testing, the LQR's tuning parameters are fairly intuitive. They essentially represent how much to penalize errors in position versus large input values. Once the dynamics and weights are chosen, from a programmer's perspective, the work is done. For now, we simply have our control system navigating us from pose to pose in a straight line, which is essentially all you need for navigation in RoboSub. However, we do plan on improving the control systems to allow for more sophisticated paths, if time allows.
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Computer Vision
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                TODO
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        What's Next?
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                TODO
+            </p>
+        </div>
+        
+        <h2
+            class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Electrical
+        </h2>
+        <div class="text has-text-justified">
+            <p>
+                We have completed the design of the first revision of our Battery Management Board. The PCBs have arrived, and we are currently waiting for the components to begin assembly. While we wait, we are starting firmware development to enable energy consumption monitoring and environmental status tracking, including temperature, humidity, and SD card data logging
+                <br>
+                We look forward to assembling and debugging Revision A of the board. Once the BMS board is populated and we finalize our choice of Jetson, we will be able to assemble the full electrical stack. Additionally, we are making final decisions on the battery packs we will be using.
+            </p>
+        </div>
+    
+        <h2
+            class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Mechanical
+        </h2>
+        <div class="text has-text-justified">
+            <p>
+                We are excited to announce that we have completed the manufacturing of our electrical box! We also just received a shipment containing all the mounting hardware and O-rings. Everything fits together quite well!  A huge shoutout to Cito Medical for allowing us to use their facilities to machine parts for our electrical box. 
+                <br>
+                Currently, we are working on the internal layout of the electronics inside the electrical box and are designing the thruster mounts and a DVL mount for our chassis. These components attach directly to the electrical box. While some areas of our mechanical design still need refinement, the majority of the work is complete.
+            </p>
+        </div>
+        
+        
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Battery Housing Design
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                One of our next major tasks is designing the battery housings. We delayed this step since we already knew the battery specifications we needed, but we were uncertain about the exact brand or whether we wanted to build custom battery packs. Now that we have that information, we can move forward with finalizing the design.
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Computational Fluid Dynamics (CFD) Simulations
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                We are currently running CFD simulations to determine the linear drag coefficients in all directions for our LQR (Linear Quadratic Regulator) control system. Using SolidWorks CFD, we have been solving for the rectilinear drag coefficients and are now developing a computational method for solving rotational drag coefficients.
+                <br>
+                Because our vehicle consists of a mix of unusual materials and has a highly non-uniform structure and we require an accurate center of mass measurement we have decided that we can not trust values from our CAD. We are opting for physical measurements rather than purely computational estimates. We are currently developing fixtures and testing procedures to measure the center of mass and the moments of inertia for LaserShark.
+            </p>
+        </div>
+
+        <h3
+        class="title has-text-left has-text-white-ter is-size-4 has-text-weight-bold mgb-medium">
+        Final Assembly and Pool Testing
+        </h3>
+        <div class="text has-text-justified">
+            <p>
+                We are still waiting on a significant amount of shipments, including penetrators and electrical connectors. Once these arrive, we can complete the assembly of our chassis and electrical box. With the electronics nearing integration, we are aiming for our first pool test within the next six weeks!
+            </p>
+        </div>
+
+        <h2
+            class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Outreach
+        </h2>
+        <h2
+            class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Sponsors
+        </h2>
+        <div class="text has-text-justified">
+            <p>
+                Thank you to the individuals and organizations who have
+                generously supported us in constructing LazerShark.
+                We give our thanks to <a href="https://www.pnisensor.com"
+                    target="_blank"> PNI Sensor</a> for providing us with their
+                NaviGuider and TargetPoint-TCM IMUs. It has been great working
+                with PNI, they have been very responsive and helpful and we are
+                proud to be using their products. Cabrillo Robotics plans to
+                create an open source Serial and ROS drivers for the
+                TargetPoint-TCM.
+                We are also incredibly grateful to <a
+                    href="https://waterlinked.com/" target="_blank"> Water
+                    Linked</a> for giving us a
+                generous discount on their A50 DVL. We believe that this sensor
+                will be a crucial part of our AUV's success and so far has
+                provided us with impressively accurate readings.
+                There are many other organizations and individuals we have to
+                thank for contributing to the funding of the project, please
+                visit our <a href="{{site.url}}{{site.baseurl}}/sponsors">
+                    sponsors</a> page for more details.
+            </p>
+        </div>
+        <section class="section has-text-centered" id="posts-sponsors">
+            <div class="sponsor-grid">
+                {% for sponsor in site.data.sponsors %}
+                <div class="column">
+                    <div class="sponsor-card">
+                        <a href="{{sponsor.website}}" target="blank_">
+                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</section>

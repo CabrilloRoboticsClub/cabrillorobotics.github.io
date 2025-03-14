@@ -1617,3 +1617,30 @@ p {
         margin-top: 5vh;
     }
 }
+
+#posts-sponsors {
+    .sponsor-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        align-items: center;
+    }
+    .sponsor-card {
+        transition: all 0.25s ease;
+        margin: 20px;
+    }
+    .sponsor-card:hover {
+        transform: scale(1.01);
+    }
+}
+
+#rs-post-content {
+    a {
+        color: var(--primary);
+    } 
+    br {
+        margin-bottom: 20px;
+    }
+    .text {
+        margin-bottom: 20px;
+    }
+}
