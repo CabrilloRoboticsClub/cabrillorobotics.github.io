@@ -7,6 +7,7 @@ tags:
 - RoboSub
 - AUV
 - Lazer Shark
+md-format: True
 ---
 Cabrillo College’s Robotics Club recently announced their participation in the upcoming RoboSub competition, following their [victory](https://cabrillorobotics.org/updates/cabrillo-robotics-wins-international-robotics-competition) at the Marine Advanced Technology Education (MATE) World Championship. In June, the team secured First Place in the most advanced category of the MATE competition, outperforming 29 teams from 9 countries. MATE tasks teams worldwide to design and construct a Remotely Operated Vehicle (ROV), a tethered underwater robot, capable of performing simulated industry tasks. After three consecutive years of participation in the MATE competition, and three first place victories in their respective division, Cabrillo Robotics is ready to embark on a new challenge.
 <br>

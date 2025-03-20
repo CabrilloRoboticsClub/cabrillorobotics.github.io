@@ -7,6 +7,7 @@ tags:
 - MATE
 - ROV
 - Seahawk II
+md-format: True
 ---
 
 The Cabrillo Robotics Club achieved an impressive victory, taking home First Place in the most advanced category of the Marine Advanced Technology Education (MATE) World Championship. Held in Kingsport, TN from June 20-22 2024, the competition gathered 82 teams from 17 countries to showcase advancements in underwater robotics.
