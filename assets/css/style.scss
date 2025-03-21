@@ -1647,4 +1647,13 @@ p {
     .text {
         margin-bottom: 20px;
     }
+    figure.image {
+        width: 100%;
+        padding-top: 0;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
 }
