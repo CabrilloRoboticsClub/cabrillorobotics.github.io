@@ -1656,4 +1656,9 @@ p {
         border-radius: 10px;
         overflow: hidden;
     }
+    .image-column {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Optional: centers images horizontally too */
+    }
 }
