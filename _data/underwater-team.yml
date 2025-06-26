@@ -1,0 +1,23 @@
+- name: Stephanie L'Heureux
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/steph.webp
+  link:
+  roles: Club President<br>Software & Marketing
+  description: Stephanie is a sophomore studying CS and mechatronics. She plans to pursue a career in software development for robotics after completing a bachelors and masters program.
+
+- name: Liam Gilligan
+  link:
+  image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/liam.webp
+  roles: Club Treasurer & Software Lead<br>Software
+  description: Liam is a sophomore studying Math and Physics. He plans to continue his education and pursue a career in research and academia.
+
+- name: Isaac Wax
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/isaacw.webp
+  roles: Hardware Lead<br>Electrical & Mechanical
+  description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.
+
+- name: James Truong
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/james.webp
+  roles: Mechanical
+  description: James is studying to be a mechanical engineer. He plans to transfer to a 4 year university to get a career as a professional engineer. His hobbies include 3D design and CAD, as well as hiking the woods.

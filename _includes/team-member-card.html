@@ -1,6 +1,6 @@
 <div id="team">
     <div class="grid" id="team-grid">
-        {% for member in site.data.members %}
+        {% for member in include.members %}
             <div class="column">
                 <div class="person-card" 
                     data-image="{{member.image}}" 
