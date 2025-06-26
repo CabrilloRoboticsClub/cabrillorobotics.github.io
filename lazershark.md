@@ -1,7 +1,7 @@
 ---
-layout: lazer-shark
+layout: lazershark
 comp: RoboSub 2025
-title: Lazer Shark
+title: LazerShark
 subtitle: Coming soon...
 hero-image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark.webp
 handle: lazer-shark
