@@ -1,3 +1,8 @@
+- name: AMD
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/sponsors/amd.svg
+  level: lazer
+  website: https://waterlinked.com/
+
 - name: Cito Medical
   logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/cito.svg
   level: lazer
@@ -18,3 +23,7 @@
   level: lazer
   website: https://waterlinked.com/
 
+- name: Intel
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/sponsors/intel.webp
+  level: diamond
+  website: https://waterlinked.com/
