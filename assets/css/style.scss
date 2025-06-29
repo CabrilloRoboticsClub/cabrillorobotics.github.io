@@ -530,9 +530,22 @@ p {
         background-color: var(--primary);
         border-color: var(--primary);
     }
+}
 
-    .seahawk-II a {
-        color: var(--seahawk-II);
+#lazershark-acknowledgements {
+    .button {
+        background-color: var(--primary-bkg);
+        border-color: var(--primary);
+        color: var(--header);
+    }
+
+    .button:hover {
+        background-color: var(--primary);
+        border-color: var(--primary);
+    }
+
+    a {
+        color: var(--primary);
     }
 }
 
