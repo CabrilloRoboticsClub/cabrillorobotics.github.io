@@ -35,4 +35,8 @@ gallery:
     - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/lazer-shark/gallery-lazershark/zed-window.webp
       text: Close-up of the Zed camera window.
       credit: Stephanie L'Heureux
+    
+    - image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/lazer-shark/gallery-lazershark/lazershark.webp
+      text: LazerShark AUV.
+      credit: Stephanie L'Heureux
 ---
