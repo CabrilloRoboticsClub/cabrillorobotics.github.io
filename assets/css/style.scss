@@ -1329,7 +1329,19 @@ p {
     }
 }
 
-#latest-project {
+#lazershark-homepage {
+    .button {
+        color: var(--header);
+	    border-color: var(--primary);
+        background-color: var(--primary-bkg);
+    }
+    .button:hover {
+        background-color:var(--primary);
+  	    border-color:var(--primary);
+    }
+}
+
+#seahawk-II-homepage {
     .button {
         color: var(--header);
 	    border-color: var(--primary);
