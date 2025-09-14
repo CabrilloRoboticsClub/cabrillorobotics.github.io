@@ -1,3 +1,7 @@
+- name: SkyHawk
+  year: 2026
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/skyhawk/TailsitterRender.webp
+  page: skyhawk
 - name: Lazer Shark
   year: 2025
   image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark.webp
