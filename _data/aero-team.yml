@@ -1,0 +1,11 @@
+- name: Teo Schnell
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/teo.webp
+  link:
+  roles: Aero Lead & Club Secretary<br>Software & Electrical
+  description: Teo is a sophomore at Cabrillo College, studying Computer & Aerospace Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
+
+- name: Aidan Cinque
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/aiden.webp
+  roles: Mechanical
+  description: Aidan is a mechanical engineer student at Cabrillo College. He is working towards transferring to a UC or CSU. For his career, Aidan is interested in the renewable energy industry or automotive industry. Outside of school Aidan likes running, hiking and in general being outdoors.

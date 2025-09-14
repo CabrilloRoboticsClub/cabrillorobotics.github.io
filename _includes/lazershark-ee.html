@@ -1,0 +1,32 @@
+<section class="section" id="lazershark-ee">
+    <div class="container">
+        <h2 class="title has-text-left has-text-white-ter is-size-2 has-text-weight-bold mgb-medium">
+            Electrical Box
+        </h2>
+        <p>
+            The electrical box houses the complete LazerShark electrical stack. It is constructed from machined MIC 6 aluminum plates that were TIG welded together. The enclosure was designed to provide easy access to all components. It includes two polycarbonate windows: a top window to view the stack and a front window for the ZED 2i camera. These windows are secured with bolts and sealed using O-rings to provide a reliable watertight seal. The box is pressure-tested before each deployment to ensure minimal risk of failure. 
+            <br>
+        </p>
+
+        <figure>
+            <img src="https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/lazer-shark/electrical-box-exploded.webp" alt="LazerShark electrical enclosure with labeled components">
+        </figure>
+
+        <div class="features">
+            <div class="column">
+                <ul>
+                    <li><span class="feature">1</span> The Nvidia Jetson Orin Nano, handles the heavy computational costs of computer vision. Compare d to a Raspberry Pi, which CRC has used religiously in the past, a Jetson Orin Nano has a much better performance for CV. The Nvidia Jetson Orin Nano was chosen for its high level of support, documentation, and performance given its low cost.</li>
+                    <li><span class="feature">2</span> The Pi Hat is a custom legacy PCB designed last year for MATE ROV. The Pi Hat acts as the bridge between the electronics and our ROS network, interfacing with the components directly or through the RP2040 over UART. The RP2040 runs a micro-ROS bridge, allowing it to control the Blue Robotics ESCs and interface with the BMS board. The Pi Hat also has several status LEDs for debugging purposes and cooling fans.</li>
+                    <li><span class="feature">3</span> Power is supplied by an off-the-shelf lithium-ion battery pack, which connects to a custom Battery Management System (BMS) board which handles all hardware-level control and protection. The BMS board includes reverse polarity protection, a dual power path system and a current shunt IC. To protect the batteries, LazerShark goes into a low power error state if the energy consumed from the battery is above a safe capacity.  </li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><span class="feature">4</span> The StereoLabs Zed 2i stereoscopic camera serves as the eyes of the vehicle. With two lenses which mimic binocular vision, the Zed captures high-resolution 120° Wide-Angle FOV stereo images. These images are processed on the Jetson in real time to identify and locate objects, aid in vehicle position tracking, and create a global map of the environment.</li>
+                    <li><span class="feature">5</span> A Doppler Velocity Logger (DVL) is a critical component of the vehicle’s localization system, as it measures velocity relative to the bottom of the pool. CRC is grateful to Water Linked for providing us a substantial discount on their A50 Doppler Velocity Logger (DVL). The A50 interfaces with the Pi over ethernet. A custom TCP driver sends velocity data to the ROS network which is used for state estimation.</li>
+                    <li><span class="feature">6</span> PNI Sensor generously provided us with their NaviGuider and TargetPoint-TCM Inertial Measurement Units (IMUs). Custom drivers were written to interface with the proprietary serial protocols allowing for direct and fast integration with the ROS2 network. These high end IMUs provide the LazerShark with accurate attitude and acceleration data, which is vital to pose estimation and navigation.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
