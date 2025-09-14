@@ -1,7 +1,7 @@
 - name: SkyHawk
   year: 2026
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/suas/assets/images/suas/TailsitterRender.webp
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/suas/assets/images/suas/TailsitterRender.webp
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/skyhawk/TailsitterRender.webp
+  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/skyhawk/TailsitterRender.webp
   award: RoboSub AUV
   page: skyhawk
 
