@@ -1,25 +1,25 @@
 - name: Ava Carney
   link: 
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/ava.webp
+  image: assets/images/team/ava.webp
   roles: Marketing (2024)
   description: Ava is a math major and honors transfer cohort member at Cabrillo college. She plans on transferring to the University of California, Santa Cruz (UCSC) and continuing her math major there, with a minor in computer science. Outside of school, she works as a freelance artist and enjoys speaking and reading in Spanish in her free time.
 
 - name: Al Cornblatt
   link:
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/al.webp
+  image: assets/images/team/al.webp
   roles: Mechanical (2024)
   current: MechE
   description: Al is a mechanical engineering major at Cabrillo College. He is planning to transfer to university and pursue a career in design and manufacturing field. During his free time, he likes to fix and ride his bike, workout, design parts for fun and hangout with friends and family.
 
 - name: Isaac Eda
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/isaace.webp
+  image: assets/images/team/isaace.webp
   link:
   roles: Electrical & Pilot (2023 & 2024)
   current: SJSU EE
   description: Isaac is currently studying at San Jose State pursuing a degree in Electrical Engineering. In the future, he hopes to work on electric vehicles. 
 
 - name: Rowan Garties
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/rowan.webp
+  image: assets/images/team/rowan.webp
   link:
   roles: Secretary & Mechanical (2024)
   current: Oregon State Corvallis MechE
@@ -28,6 +28,18 @@
 - name: Massimo Ginella
   link:
   roles: ICC Representative<br>Software (2024)
-  image:  https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/massimo.webp
+  image:  assets/images/team/massimo.webp
   current: UC Berkeley EECS
   description: Massimo is a computer science major and honors transfer cohort member at Cabrillo College. He has goals to transfer to a 4 year university and to pursue a career in Artificial Intelligence development. On his spare time, Massimo likes to skate, play with neighborhood cats, code, and drum.
+
+- name: Fox Williams
+  link:
+  image: assets/images/team/fox.webp
+  roles: Software
+  description: Fox is a computer science student with a focus on robotics and artificial intelligence. He plans to complete a bachelor’s degree and pursue a career in autonomous systems development. His interests include machine learning, computer vision, and embedded systems.
+
+- name: Isaac Wax
+  link:
+  image: assets/images/team/isaacw.webp
+  current: Cal Poly SLO EE
+  description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.

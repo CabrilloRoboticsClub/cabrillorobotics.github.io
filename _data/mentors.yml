@@ -1,10 +1,10 @@
 - name: Mike Matera
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/mike.webp
+  image: assets/images/team/mike.webp
   link:
   roles: CIS Chair
   description: "Mike Matera has been a professor at Cabrillo College since 2013, and has taught many CIS and CS classes during that time. Prior to working at Cabrillo he spent 15 years at Xilinx INC. He began his career as a logic designer, producing self-test circuits and has three circuit patents. He received his Bachelors in Computer Engineering from UC Santa Cruz and his Masters in Computer Science from National University."
 - name: Andrew Thach
   link:
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/thach.webp
+  image: assets/images/team/thach.webp
   roles: CS Professor
   description: "Andrew Thach is a Computer Science professor at Cabrillo College. He received both his Bachelors and Masters in Computer Science at UCSC, with a focus on machine learning and artificial intelligence. Prior to his education at UCSC, Thach was also a member of the Cabrillo Robotics Club."
