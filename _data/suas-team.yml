@@ -1,0 +1,35 @@
+- name: Teo Schnell
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/teo.webp
+  link:
+  roles: Club Secretary<br>Mechanical & Software
+  description: Teo is a sophomore at Cabrillo College, studying Aerospace & Computer Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
+
+- name: Aidan Cinque
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/team/aiden.webp
+  roles: Mechanical
+  description: Aidan is a mechanical engineer student at Cabrillo College. He is working towards transferring to a UC or CSU. For his career, Aidan is interested in the renewable energy industry or automotive industry. Outside of school Aidan likes running, hiking and in general being outdoors.
+
+- name: Nick Wiseman
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/team/nick.webp
+  roles: Mechanical
+  description: Nick is pursuing mechanical engineering at Cabrillo College with plans to transfer to a four-year university. After graduating, he hopes to work in the automotive industry where he can contribute to advancements in vehicle design and engineering.
+
+- name: Patrick Morrissey
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/team/patrick.webp
+  roles: Software
+  description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
+
+- name: Alan Pacheco
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/team/alan.webp
+  roles: Software
+  description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
+
+- name: Johann Kaufmann
+  link:
+  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/team/johann.webp
+  roles: Mechanical
+  description: Johann Johann Johann
