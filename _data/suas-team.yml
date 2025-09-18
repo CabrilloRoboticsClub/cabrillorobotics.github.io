@@ -28,8 +28,8 @@
   roles: Mechanical
   description: Johann is a 3rd year Mechanical Engineering student, working on the hardware team of the SUAS project. He enjoys rock climbing and hiking.
 
-- name: Alan Pacheco
-  link:
-  image: assets/images/team/alan.webp
-  roles: Software
-  description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
+# - name: Alan Pacheco
+#   link:
+#   image: assets/images/team/alan.webp
+#   roles: Software
+#   description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
