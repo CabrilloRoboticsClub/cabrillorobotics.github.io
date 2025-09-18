@@ -1,12 +1,7 @@
 - name: SkyHawk
   year: 2026
-<<<<<<< Updated upstream
   image: assets/images/skyhawk/TailsitterRender.webp
-  logo:  assets/images/skyhawk/TailsitterRender.webp
-=======
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/SUAS/assets/images/skyhawk/TailsitterRender.webp
-  logo: assets/images/skyhawk/skyhawk-hero-logo.webp
->>>>>>> Stashed changes
+  logo:  assets/images/skyhawk/skyhawk-hero-logo.webp
   award: RoboNation SUAS
   page: skyhawk
 
