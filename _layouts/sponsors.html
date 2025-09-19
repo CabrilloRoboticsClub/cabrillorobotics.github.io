@@ -15,116 +15,28 @@ layout: compress
         <div class="container">
             <div class="contents">
                 <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
-                    2025 Sponsors
+                    2026 Sponsors
                 </h1>
                 <p class="description">
                     Cabrillo Robotics Club depends on the generous support of our sponsors to continue our work in
                     creating and improving robotic technology. We give our sincerest gratitude to the organizations who
-                    have
-                    supported us.
+                    have supported us.
                 </p>
             </div>
 
-            <div class="contents">
-                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--primary)">
-                    Lazer
-                </h2>
-            </div>
-
-            <div class="sponsor-grid">
-                {% for sponsor in site.data.sponsors-2025 %}
-                {% if sponsor.level == "lazer" %}
-                <div class="column">
-                    <div class="sponsor-card">
-                        <a href="{{sponsor.website}}" target="blank_">
-                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
+            <!-- 2026 SPONSORS -->
+            {% assign sponsor_year = site.data.sponsors-2026 %}
+            {% include sponsor-section.html sponsors=sponsor_year %}
 
             <div class="contents">
-                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--seahawk)">
-                    Diamond
-                </h2>
+                <h1 class="title has-text-left is-size-1 has-text-weight-bold mgb-medium">
+                    2025 Sponsors
+                </h1>
             </div>
 
-            <div class="sponsor-grid">
-                {% for sponsor in site.data.sponsors-2025 %}
-                {% if sponsor.level == "diamond" %}
-                <div class="column">
-                    <div class="sponsor-card">
-                        <a href="{{sponsor.website}}" target="blank_">
-                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="contents">
-                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--gold)">
-                    Gold
-                </h2>
-            </div>
-
-            <div class="sponsor-grid">
-                {% for sponsor in site.data.sponsors-2025 %}
-                {% if sponsor.level == "gold" %}
-                <div class="column">
-                    <div class="sponsor-card">
-                        <a href="{{sponsor.website}}" target="blank_">
-                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="contents">
-                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--silver)">
-                    Silver
-                </h2>
-            </div>
-
-            <div class="sponsor-grid">
-                {% for sponsor in site.data.sponsors-2025 %}
-                {% if sponsor.level == "silver" %}
-                <div class="column">
-                    <div class="sponsor-card">
-                        <a href="{{sponsor.website}}" target="blank_">
-                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="contents">
-                <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium"
-                    style="color: var(--seahawk-II)">
-                    Bronze
-                </h2>
-            </div>
-
-            <div class="sponsor-grid">
-                {% for sponsor in site.data.sponsors-2025 %}
-                {% if sponsor.level == "bronze" %}
-                <div class="column">
-                    <div class="sponsor-card">
-                        <a href="{{sponsor.website}}" target="blank_">
-                            <img src="{{sponsor.logo}}" alt="{{sponsor.name}}">
-                        </a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
+            <!-- 2025 SPONSORS -->
+            {% assign sponsor_year = site.data.sponsors-2025 %}
+            {% include sponsor-section.html sponsors=sponsor_year %}
 
             <p class="your-name-here">
                 Want your name here?

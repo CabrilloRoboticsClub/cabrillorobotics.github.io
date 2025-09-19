@@ -28,6 +28,11 @@
   roles: Mechanical
   description: Johann is a 3rd year Mechanical Engineering student, working on the hardware team of the SUAS project. He enjoys rock climbing and hiking.
 
+- name: Darwin Horwath
+  link:
+  image: /assets/images/team/question.webp
+  roles: Mechanical
+  description: Freshman at Cabrillo College studying Engineering.
 # - name: Alan Pacheco
 #   link:
 #   image: assets/images/team/alan.webp
