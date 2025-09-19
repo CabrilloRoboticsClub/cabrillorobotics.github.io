@@ -1,7 +1,7 @@
 ---
 title: SUAS September 2025 Announcement
-layout: post-custom
-post-image: "assets/images/skyhawk/TailsitterRender.webp"
+layout: post
+post-image: "/assets/images/posts/sept-25-announcment-suas/suas-hero-bkg.webp"
 description: SUAS SUAS
 post-html: post-custom-suas-sept-25.html
 tags:
