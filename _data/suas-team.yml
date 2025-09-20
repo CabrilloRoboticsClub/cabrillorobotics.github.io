@@ -1,40 +1,59 @@
 - name: Teo Schnell
-  image: assets/images/team/teo.webp
-  link:
-  roles: Club Secretary<br>Mechanical & Software
+  image: /assets/images/team/teo.webp
+  link: 
+  roles: Club President<br>Mechanical & Software
   description: Teo is a sophomore at Cabrillo College, studying Aerospace & Computer Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
-
-- name: Aidan Cinque
-  link:
-  image: assets/images/team/aiden.webp
-  roles: Mechanical
-  description: Aidan is a mechanical engineer student at Cabrillo College. He is working towards transferring to a UC or CSU. For his career, Aidan is interested in the renewable energy industry or automotive industry. Outside of school Aidan likes running, hiking and in general being outdoors.
 
 - name: Nick Wiseman
   link:
-  image: assets/images/team/nick.webp
-  roles: Mechanical
+  image: /assets/images/team/nick.webp
+  roles: Club Treasurer<br>Mechanical
   description: Nick is pursuing mechanical engineering at Cabrillo College with plans to transfer to a four-year university. After graduating, he hopes to work in the automotive industry where he can contribute to advancements in vehicle design and engineering.
+
+- name: Aidan Cinque
+  link:
+  image: /assets/images/team/aiden.webp
+  roles: Club Secretary<br>Mechanical
+  description: Aidan is a mechanical engineer student at Cabrillo College. He is working towards transferring to a UC or CSU. For his career, Aidan is interested in the renewable energy industry or automotive industry. Outside of school Aidan likes running, hiking and in general being outdoors.
+
+- name: Marina Crawford
+  link:
+  image: /assets/images/team/question.webp
+  roles: Club ICC Representative<br>Electrical
+  description: Marina Marina
+
+- name: Spencer Koontz
+  link:
+  image: /assets/images/team/question.webp
+  roles: Mechanical
+  description: Spencer Spencer
 
 - name: Patrick Morrissey
   link:
-  image: assets/images/team/patrick.webp
+  image: /assets/images/team/patrick.webp
   roles: Software
   description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
 
 - name: Johann Kaufmann
   link:
-  image: assets/images/team/johann.webp
+  image: /assets/images/team/johann.webp
   roles: Mechanical
   description: Johann is a 3rd year Mechanical Engineering student, working on the hardware team of the SUAS project. He enjoys rock climbing and hiking.
 
 - name: Darwin Horwath
   link:
-  image: /assets/images/team/question.webp
+  image: /assets/images/team/darwin.webp
   roles: Mechanical
-  description: Freshman at Cabrillo College studying Engineering.
-# - name: Alan Pacheco
-#   link:
-#   image: assets/images/team/alan.webp
-#   roles: Software
-#   description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
+  description: Darwin is a first year college student at Carillo. He is studying Mechatronics Engineering and intends to pursue a career in aerospace or robotics.
+
+- name: Alan Pacheco
+  link:
+  image: /assets/images/team/question.webp
+  roles: Software & Electrical
+  description: Alan Alan
+
+- name: Chris (last name?)
+  link:
+  image: /assets/images/team/question.webp
+  roles: Software & Electrical
+  description: Chris Chris
