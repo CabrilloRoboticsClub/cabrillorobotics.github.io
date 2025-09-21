@@ -18,15 +18,15 @@
 
 - name: Marina Crawford
   link:
-  image: /assets/images/team/question.webp
+  image: /assets/images/team/marina.webp
   roles: Club ICC Representative<br>Electrical
-  description: Marina Marina
+  description: Marina is studying Electrical Engineering. She plans to pursue a master’s or PhD program in the future, with the goal of applying her skills to innovative projects in electrical systems.
 
-- name: Spencer Koontz
-  link:
-  image: /assets/images/team/question.webp
-  roles: Mechanical
-  description: Spencer Spencer
+# - name: Spencer Koontz
+#   link:
+#   image: /assets/images/team/question.webp
+#   roles: Mechanical
+#   description: Spencer Spencer
 
 - name: Patrick Morrissey
   link:
@@ -46,14 +46,14 @@
   roles: Mechanical
   description: Darwin is a first year college student at Carillo. He is studying Mechatronics Engineering and intends to pursue a career in aerospace or robotics.
 
-- name: Alan Pacheco
-  link:
-  image: /assets/images/team/question.webp
-  roles: Software & Electrical
-  description: Alan Alan
+# - name: Alan Pacheco
+#   link:
+#   image: /assets/images/team/question.webp
+#   roles: Software & Electrical
+#   description: Alan Alan
 
-- name: Chris (last name?)
+- name: Cristobal Cruz-A
   link:
-  image: /assets/images/team/question.webp
+  image: /assets/images/team/cristobal.webp
   roles: Software & Electrical
-  description: Chris Chris
+  description: Cristobal is currently pursuing an EE degree. He plans to complete a bachelor's degree and possibly a masters degree. After school he is interested in the fields of control systems and electronics.
