@@ -1,0 +1,59 @@
+- name: Teo Schnell
+  image: /assets/images/team/teo.webp
+  link: 
+  roles: Club President<br>Mechanical & Software
+  description: Teo is a sophomore at Cabrillo College, studying Aerospace & Computer Engineering. He plans to enter the Aerospace or Robotics Field after graduation.
+
+- name: Nick Wiseman
+  link:
+  image: /assets/images/team/nick.webp
+  roles: Club Treasurer<br>Mechanical
+  description: Nick is pursuing mechanical engineering at Cabrillo College with plans to transfer to a four-year university. After graduating, he hopes to work in the automotive industry where he can contribute to advancements in vehicle design and engineering.
+
+- name: Aidan Cinque
+  link:
+  image: /assets/images/team/aiden.webp
+  roles: Club Secretary<br>Mechanical
+  description: Aidan is a mechanical engineer student at Cabrillo College. He is working towards transferring to a UC or CSU. For his career, Aidan is interested in the renewable energy industry or automotive industry. Outside of school Aidan likes running, hiking and in general being outdoors.
+
+- name: Marina Crawford
+  link:
+  image: /assets/images/team/marina.webp
+  roles: Club ICC Representative<br>Electrical
+  description: Marina is studying Electrical Engineering. She plans to pursue a master’s or PhD program in the future, with the goal of applying her skills to innovative projects in electrical systems.
+
+# - name: Spencer Koontz
+#   link:
+#   image: /assets/images/team/question.webp
+#   roles: Mechanical
+#   description: Spencer Spencer
+
+- name: Patrick Morrissey
+  link:
+  image: /assets/images/team/patrick.webp
+  roles: Software
+  description: Patrick is a sophomore at Cabrillo College, persuing a Computer Science major. He works on the software side of the SUAS project.
+
+- name: Johann Kaufmann
+  link:
+  image: /assets/images/team/johann.webp
+  roles: Mechanical
+  description: Johann is a 3rd year Mechanical Engineering student, working on the hardware team of the SUAS project. He enjoys rock climbing and hiking.
+
+- name: Darwin Horwath
+  link:
+  image: /assets/images/team/darwin.webp
+  roles: Mechanical
+  description: Darwin is a first year college student at Carillo. He is studying Mechatronics Engineering and intends to pursue a career in aerospace or robotics.
+
+# - name: Alan Pacheco
+#   link:
+#   image: /assets/images/team/question.webp
+#   roles: Software & Electrical
+#   description: Alan Alan
+
+- name: Cristobal Cruz-A
+  link:
+  image: /assets/images/team/cristobal.webp
+  roles: Software & Electrical
+  description: Cristobal is currently pursuing an EE degree. He plans to complete a bachelor's degree and possibly a masters degree. After school he is interested in the fields of control systems and electronics.

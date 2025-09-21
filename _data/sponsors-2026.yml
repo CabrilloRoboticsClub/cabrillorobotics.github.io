@@ -1,34 +1,34 @@
-- name: AMD
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/sponsors/amd.svg
-  level: lazer
-  website: https://www.amd.com/en.html
-
-- name: Cito Medical
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/cito.svg
-  level: lazer
-  website: https://citomedical.com
-
 - name: Kenesto
   logo: assets/images/sponsors/kenesto.svg
   level: lazer
   website: https://www.kenesto.com/
 
-- name: PNI Sensor
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/pni.webp
-  level: lazer
-  website: https://www.pnisensor.com/
+# - name: AMD AMD
+#   logo: assets/images/sponsors/amd.svg
+#   level: lazer
+#   website: https://www.amd.com/en.html
+
+# - name: Cito Medical
+#   logo: assets/images/sponsors/cito.svg
+#   level: lazer
+#   website: https://citomedical.com
+
+# - name: PNI Sensor
+#   logo: assets/images/sponsors/pni.webp
+#   level: lazer
+#   website: https://www.pnisensor.com/
 
 - name: SolidWorks
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/solidworks.svg
+  logo: assets/images/sponsors/solidworks.svg
   level: lazer
   website: https://www.solidworks.com/
 
-- name: WaterLinked
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/sponsors/waterlinked.png
-  level: lazer
-  website: https://waterlinked.com/
+# - name: WaterLinked
+#   logo: assets/images/sponsors/waterlinked.png
+#   level: lazer
+#   website: https://waterlinked.com/
 
-- name: Intel
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/refs/heads/what-a-theme-test/assets/images/sponsors/intel.webp
-  level: diamond
-  website: https://www.intel.com/content/www/us/en/homepage.html
+# - name: Intel
+#   logo: assets/images/sponsors/intel.webp
+#   level: diamond
+#   website: https://www.intel.com/content/www/us/en/homepage.html

@@ -1,24 +1,34 @@
-- name: LazerShark
+- name: SkyHawk
+  year: 2026
+  image: assets/images/skyhawk/TailsitterRender.webp
+  logo:  assets/images/skyhawk/skyhawk-hero-logo.webp
+  award: RoboNation SUAS
+  page: skyhawk
+
+- name: Lazer Shark
   year: 2025
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark.webp
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/lazer-shark/lazer-shark-logo.webp
+  image: assets/images/lazer-shark/lazer-shark.webp
+  logo: assets/images/lazer-shark/lazer-shark-logo.webp
   award: RoboSub AUV
   page: lazershark
+
 - name: SeaHawk II
   year: 2024
   page: seahawk-II
   award: MATE Explorer All Around Champion
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/seahawk-II-logo.webp
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk-II/seahawk-II.webp
+  logo: assets/images/seahawk-II/seahawk-II-logo.webp
+  image: assets/images/seahawk-II/seahawk-II.webp
+
 - name: SeaHawk
   year: 2023
   page: seahawk
   award: MATE Pioneer All Around Champion
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk-logo.webp
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/seahawk/seahawk.webp
+  logo: assets/images/seahawk/seahawk-logo.webp
+  image: assets/images/seahawk/seahawk.webp
+
 - name: Hydrozoa
   year: 2022
   page: hydrozoa
-  logo: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/hydrozoa-logo.webp
+  logo: assets/images/hydrozoa/hydrozoa-logo.webp
   award: MATE Pioneer All Around Champion
-  image: https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/what-a-theme-test/assets/images/hydrozoa/hydrozoa.webp
+  image: assets/images/hydrozoa/hydrozoa.webp

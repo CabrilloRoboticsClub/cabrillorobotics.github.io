@@ -1,7 +1,7 @@
 ---
 title: RoboSub March 2025 Update
 layout: post-custom
-post-image: "https://raw.githubusercontent.com/CabrilloRoboticsClub/cabrillorobotics.github.io/345da333ecd4013257b73888caf448cef262f7ab/assets/images/posts/march-25-update/isaac-james-work-on-chassis.webp"
+post-image: "/assets/images/posts/march-25-update/isaac-james-work-on-chassis.webp"
 description: Cabrillo Robotics Club has spent the last few months working on our RoboSub Autonomous Underwater Vehicle (AUV), LazerShark.
 post-html: post-custom-rs-march-25.html
 tags:
