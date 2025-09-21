@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include navbar.html %}
+    {% include project-showcase.html %}
+    {% include project-summary-no-tech.html %}
+
+    {% if page.showcase %}
+        {% include {{ page.showcase }} %}
+    {% endif %}
+
+    {% include project-gallery.html %}
+    {% include footer.html %}
+</body>
+</html>

@@ -1,18 +1,18 @@
 - name: Stephanie L'Heureux
-  image: assets/images/team/steph.webp
+  image: /assets/images/team/steph.webp
   link:
   roles: Software & Marketing
   description: Stephanie is a sophomore studying CS and mechatronics. She plans to pursue a career in software development for robotics after completing a bachelors and masters program.
 
 - name: Liam Gilligan
   link:
-  image: assets/images/team/liam.webp
+  image: /assets/images/team/liam.webp
   roles: Software Lead<br>Software
   description: Liam is a sophomore studying Math and Physics. He plans to continue his education and pursue a career in research and academia.
 
 - name: James Truong
   link:
-  image: assets/images/team/james.webp
+  image: /assets/images/team/james.webp
   roles: Mechanical Lead<br>Alternate ICC Representative
   description: James is studying to be a mechanical engineer. He plans to transfer to a 4 year university to get a career as a professional engineer. His hobbies include 3D design and CAD, as well as hiking the woods.
 
@@ -21,3 +21,9 @@
 #   image: /assets/images/team/question.webp
 #   roles: Mechanical
 #   description: Spencer Spencer
+
+- name: Isaac Wax
+  link:
+  image: /assets/images/team/isaacw.webp
+  roles: Mechanical
+  description: Isaac is going into his third year of an EE degree. He plans to complete a bachelors degree and possibly a masters degree. After school he is interested in the field of robotics.

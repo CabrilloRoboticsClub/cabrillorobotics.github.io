@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project-page-no-tech
 comp: SUAS 2026
 title: SkyHawk
 subtitle: Upcoming Robot

@@ -1,3 +1,8 @@
+- name: Kenesto
+  logo: assets/images/sponsors/kenesto.svg
+  level: lazer
+  website: https://www.kenesto.com/
+
 # - name: AMD AMD
 #   logo: assets/images/sponsors/amd.svg
 #   level: lazer
@@ -13,10 +18,10 @@
 #   level: lazer
 #   website: https://www.pnisensor.com/
 
-# - name: SolidWorks
-#   logo: assets/images/sponsors/solidworks.svg
-#   level: lazer
-#   website: https://www.solidworks.com/
+- name: SolidWorks
+  logo: assets/images/sponsors/solidworks.svg
+  level: lazer
+  website: https://www.solidworks.com/
 
 # - name: WaterLinked
 #   logo: assets/images/sponsors/waterlinked.png
