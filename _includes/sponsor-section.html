@@ -1,12 +1,12 @@
-<!-- sponsor-section.html -->
+{% assign lazer_sponsors = include.sponsors | where: "level", "lazer" %}
+{% if lazer_sponsors.size > 0 %}
 <div class="contents">
     <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--primary)">
         Lazer
     </h2>
 </div>
 <div class="sponsor-grid">
-    {% for sponsor in include.sponsors %}
-    {% if sponsor.level == "lazer" %}
+    {% for sponsor in lazer_sponsors %}
     <div class="column">
         <div class="sponsor-card">
             <a href="{{sponsor.website}}" target="_blank">
@@ -14,18 +14,19 @@
             </a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
 
+{% assign diamond_sponsors = include.sponsors | where: "level", "diamond" %}
+{% if diamond_sponsors.size > 0 %}
 <div class="contents">
     <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--seahawk)">
         Diamond
     </h2>
 </div>
 <div class="sponsor-grid">
-    {% for sponsor in include.sponsors %}
-    {% if sponsor.level == "diamond" %}
+    {% for sponsor in diamond_sponsors %}
     <div class="column">
         <div class="sponsor-card">
             <a href="{{sponsor.website}}" target="_blank">
@@ -33,18 +34,19 @@
             </a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
 
+{% assign gold_sponsors = include.sponsors | where: "level", "gold" %}
+{% if gold_sponsors.size > 0 %}
 <div class="contents">
     <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--gold)">
         Gold
     </h2>
 </div>
 <div class="sponsor-grid">
-    {% for sponsor in include.sponsors %}
-    {% if sponsor.level == "gold" %}
+    {% for sponsor in gold_sponsors %}
     <div class="column">
         <div class="sponsor-card">
             <a href="{{sponsor.website}}" target="_blank">
@@ -52,18 +54,19 @@
             </a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
 
+{% assign silver_sponsors = include.sponsors | where: "level", "silver" %}
+{% if silver_sponsors.size > 0 %}
 <div class="contents">
     <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--silver)">
         Silver
     </h2>
 </div>
 <div class="sponsor-grid">
-    {% for sponsor in include.sponsors %}
-    {% if sponsor.level == "silver" %}
+    {% for sponsor in silver_sponsors %}
     <div class="column">
         <div class="sponsor-card">
             <a href="{{sponsor.website}}" target="_blank">
@@ -71,18 +74,19 @@
             </a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
 
+{% assign bronze_sponsors = include.sponsors | where: "level", "bronze" %}
+{% if bronze_sponsors.size > 0 %}
 <div class="contents">
     <h2 class="title has-text-left is-size-2 has-text-weight-bold mgb-medium" style="color: var(--seahawk-II)">
         Bronze
     </h2>
 </div>
 <div class="sponsor-grid">
-    {% for sponsor in include.sponsors %}
-    {% if sponsor.level == "bronze" %}
+    {% for sponsor in bronze_sponsors %}
     <div class="column">
         <div class="sponsor-card">
             <a href="{{sponsor.website}}" target="_blank">
@@ -90,6 +94,6 @@
             </a>
         </div>
     </div>
-    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
