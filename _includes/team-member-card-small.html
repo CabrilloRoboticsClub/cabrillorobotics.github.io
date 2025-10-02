@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Cards</title>
+<style>
+  /* Grid layout */
+  #team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+
+  /* Default card styling */
+  .person-card .card {
+    width: 220px; /* full-size default */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .person-card .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .person-card .card .card-content {
+    margin-top: 0.5rem;
+  }
+
+  .person-card .card:hover {
+    transform: translateY(-4px);
+  }
+
+  /* Smaller variant */
+  .person-card.small .card {
+    width: 100px; /* smaller card width */
+  }
+
+  .person-card.small .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Override Bulma font sizes */
+  .person-card.small .card .name {
+    font-size: 0.65rem !important; /* smaller heading */
+  }
+
+  .person-card.small .card .roles {
+    font-size: 0.55rem !important; /* smaller roles text */
+  }
+
+  .person-card.small .card .card-content {
+    margin-top: 0.25rem;
+  }
+
+  /* Popup styling */
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup.active {
+    display: flex;
+  }
+
+  .popup-content {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popup-close {
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .popup-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .popup-text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .popup-text h2 {
+    margin-bottom: 0.5rem;
+  }
+
+</style>
+</head>
+<body>
+
+<div id="team">
+  <div class="grid" id="team-grid">
+      {% for member in include.members %}
+          <div class="column">
+              <div class="person-card small" 
+                  data-image="{{member.image}}" 
+                  data-name="{{ member.name }}" 
+                  data-roles="{{ member.roles }}" 
+                  data-description="{{ member.description }}">
+                  <div class="card">
+                      <img src="{{member.image}}" alt="{{member.name}}">
+                      <div class="card-content">
+                          <h2 class="name has-text-white-ter has-text-weight-bold is-size-6">{{ member.name }}</h2>
+                          <p class="roles has-text-weight-normal">{{ member.roles }}</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      {% endfor %}
+  </div>
+
+  <!-- Popup -->
+  <div id="person-popup" class="popup">
+      <div class="popup-content">
+          <span class="popup-close">&times;</span>
+          <div class="popup-image-container">
+              <img id="popup-image" src="" alt="Member Photo">
+          </div>
+          <div class="popup-text">
+              <h2 id="popup-name"></h2>
+              <p id="popup-roles"></p>
+              <br>
+              <p id="popup-description"></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const popup = document.getElementById("person-popup");
+      const popup_image = document.getElementById("popup-image");
+      const popup_name = document.getElementById("popup-name");
+      const popup_roles = document.getElementById("popup-roles");
+      const popup_description = document.getElementById("popup-description");
+      const close_button = document.querySelector(".popup-close");
+
+      document.querySelectorAll(".person-card").forEach(function(card) {
+          card.addEventListener("click", function() {
+              popup_image.src = this.getAttribute("data-image");
+              popup_name.textContent = this.getAttribute("data-name");
+              popup_roles.textContent = this.getAttribute("data-roles").split("<br>").join(" -- ");
+              popup_description.textContent = this.getAttribute("data-description");
+              popup.classList.add("active");
+          });
+      });
+
+      close_button.addEventListener("click", function() {
+          popup.classList.remove("active");
+      });
+
+      popup.addEventListener("click", function(event) {
+          if (event.target === popup) {
+              popup.classList.remove("active");
+          }
+      });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+---
+title: Yearbook
+layout: yearbook
+---
+
