@@ -1,4 +1,15 @@
 <div id="project-gallery-card">
+    <style>
+        /* ensure gallery thumbnails keep their aspect ratio and fill the card width */
+        #project-gallery-card .grid img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* optional: prevent overflow when using object-fit variants elsewhere */
+        #project-gallery-card .card { overflow: hidden; }
+    </style>
+
     <div class="grid" id="project-grid">
         {% for image in page.gallery %}
         <div class="column" id="project-card">
@@ -6,7 +17,8 @@
                     data-image="{{image.image}}" 
                     data-text="{{ image.text }}" 
                     data-credit="{{ image.credit }}">
-                    <figure class="image is-5by4">
+                    <!-- removed fixed ratio (is-5by4) so images keep their original aspect ratio -->
+                    <figure class="image">
                         <img src="{{ image.image }}" alt="{{ image.text }}">
                     </figure>
                 </div>
