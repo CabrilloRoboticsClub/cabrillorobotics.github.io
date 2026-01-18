@@ -1558,7 +1558,6 @@ p {
 #comp-awards-card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
-    justify-content: center;
 
     .award-graphic img {
         max-width: 100%;

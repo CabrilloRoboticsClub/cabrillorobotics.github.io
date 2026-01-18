@@ -2,14 +2,14 @@
   year: 2026
   image: assets/images/skyhawk/TailsitterRender.webp
   logo:  assets/images/skyhawk/skyhawk-hero-logo.webp
-  award: RoboNation SUAS
+  award: SUAS UAV
   page: skyhawk
 
 - name: Lazer Shark
   year: 2025
   image: assets/images/lazer-shark/lazer-shark.webp
   logo: assets/images/lazer-shark/lazer-shark-logo.webp
-  award: RoboSub AUV
+  award: RoboSub 4th Place in Autonomy 
   page: lazershark
 
 - name: SeaHawk II
