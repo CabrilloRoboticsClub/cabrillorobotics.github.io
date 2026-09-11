@@ -2,3 +2,4 @@ venv*/
 _build/*
 _themes/*
 _site/*
+.bundle/
