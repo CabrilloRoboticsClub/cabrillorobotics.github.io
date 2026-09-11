@@ -1,10 +1,3 @@
-- name: SkyHawk
-  year: 2026
-  image: assets/images/skyhawk/TailsitterRender.webp
-  logo:  assets/images/skyhawk/skyhawk-hero-logo.webp
-  award: SUAS UAV
-  page: skyhawk
-
 - name: Lazer Shark
   year: 2025
   image: assets/images/lazer-shark/lazer-shark.webp
